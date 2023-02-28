@@ -8,9 +8,10 @@ body {
 
 .page-container {
   width: 1400px;
+  margin: 0 auto;
 }
 
-/*nav {
+nav {
   width: 1150px;
   height: 25px;
   padding: 33 0 70 0;
@@ -25,7 +26,7 @@ a {
 li {
   display: inline;
   float: right;
-}*/
+}
 
 .header {
   font-size: 60px;
