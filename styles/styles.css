@@ -6,13 +6,25 @@ body {
   box-sizing: border-box;
 }
 
+h1-h6,
+p,
+a {
+  letter-spacing: -0.03em;
+}
+
 .page-container {
-  width: 1400px;
   margin: 0 auto;
+  width: 1400px;
+  background: #ffffff;
+}
+
+.content {
+  margin: 0 auto;
+  width: 1150px;
+  padding: 0 125px;
 }
 
 nav {
-  width: 1150px;
   height: 25px;
   padding: 33 0 70 0;
 }
@@ -20,7 +32,6 @@ nav {
 a {
   font-size: 18px;
   line-height: 25px;
-  letter-spacing: -0.03em;
 }
 
 li {
@@ -38,7 +49,6 @@ li {
 }
 
 .header-image {
-  width: 1150px;
   background-image: url("../images/Rectangle 1.jpg");
   background-repeat: no-repeat;
   padding-left: 19px;
@@ -75,31 +85,49 @@ h2 {
   text-align: left;
 }
 
-.link1 {
+.link {
   margin-top: 30px;
   margin-bottom: 150px;
-  display: inline-block;
-  padding: 20px 40px;
-  color: #ffffff;
-  background-color: #ad1818;
-  border-radius: 5px;
-  border: 1px solid #ad1818;
   width: 255px;
   height: 67px;
+  display: block;
+  padding: 20 40 20 40;
+  color: #ffffff;
+  background: #ad1818;
+  border-radius: 5px;
   text-decoration: none;
   text-align: center;
   line-height: 67px;
-  font-size: 18px;
-  font-style: normal;
+  font-size: 20px;
+  letter-spacing: -0.03em;
+  cursor: pointer;
 }
 
-/*.projects {
-  width: 1150px;
-  height: 450px;
+.project {
+  display: block;
 }
 
-p {
-  color: #000000;
-  font-size: 45px;
-  line-height: 61.47px;
-}*/
+.project__image {
+  width: 100%;
+  height: 401px;
+}
+
+.project__description {
+  padding-bottom: 15px;
+  width: 501px;
+  color: #121212;
+  font-size: 30px;
+  line-height: 40.98px;
+  text-align: left;
+  letter-spacing: -0.03em;
+}
+
+.project__details {
+  margin-bottom: 90px;
+  width: 127px;
+  height: 27px;
+  color: #ad1818;
+  font-size: 20px;
+  line-height: 27.32px;
+  text-align: left;
+}
