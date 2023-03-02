@@ -125,3 +125,25 @@ h2 {
   text-align: left;
   letter-spacing: -0.03 em;
 }
+
+.link3 {
+  margin-bottom: 206px;
+  display: block;
+  height: auto;
+  border: 1px solid #ad1818;
+  border-radius: 5px;
+  text-decoration: none;
+  padding-top: 56px;
+  padding-bottom: 56px;
+  background: #ffffff;
+  text-align: center;
+  line-height: 40.98px;
+  font-size: 30px;
+  letter-spacing: -0.03em;
+  cursor: pointer;
+  color: #ad1818;
+}
+.link3:hover {
+  color: #ffffff;
+  background: #ad1818;
+}
