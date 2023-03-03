@@ -150,6 +150,7 @@ h2 {
   padding-bottom: 150px;
   max-height: 1844px;
   background-color: #121212;
+  color: #ffffff;
 }
 
 .service__image {
@@ -158,9 +159,9 @@ h2 {
   max-height: 270px;
 }
 
-.service__description h3 {
+.service__description {
   margin-bottom: 60px;
-  color: #121212;
+  color: #ffffff;
   font-size: 30px;
   line-height: 40.98px;
   text-align: left;
