@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="styles/styles.css" />
   </head>
   <body>
-    <div class="page-container">
+    <div class="header">
       <nav>
         <img
           srcset="images/Метрика.png, images/Метрика@2x.png 2x"
@@ -32,154 +32,152 @@
         </div>
       </nav>
 
-      <div class="header">
-        <h1>Современные и стильные интерьеры для комфортной жизни</h1>
-      </div>
+      <h1 class="header__text">
+        Современные и стильные интерьеры для комфортной жизни
+      </h1>
 
       <div class="header__image">
-        <p class="header__text">
+        <p class="header__description">
           Мы - команда квалифицированных дизайнеров и архитекторов, занимающихся
           разработкой и реализацией дизайн-проектов
         </p>
       </div>
-
-      <main>
-        <h2 id="about-us">О НАС</h2>
-        <div class="description">
-          <p>
-            Студия основана в 2011 году. Полностью отдаемся проектированию и
-            реализации интерьеров. К нам обращаются за уютом, индивидуальными
-            решениями и практичностью. Находим конструктивные решения для
-            каждого интерьера, вплоть до каждой детали — нацелены на результат.
-          </p>
-        </div>
-
-        <a class="link" href="#our-services">Посмотреть услуги</a>
-
-        <div class="projects">
-          <h2 id="our-projects">ПРОЕКТЫ</h2>
-          <div class="project">
-            <img
-              class="project__image"
-              srcset="images/Rectangle 6.jpg,
-                     images/Rectangle 6@2x.jpg 2x"
-              src="images/Rectangle 6.jpg"
-              alt="ЖК ПРАВОБЕРЕЖНЫЙ"
-            />
-            <p class="project__description">ЖК ПРАВОБЕРЕЖНЫЙ — 112 м² — 2023</p>
-            <div class="project__details">
-              <a class="link2" href="/">Подробнее →</a>
-            </div>
-          </div>
-
-          <div class="project">
-            <img
-              class="project__image"
-              srcset="images/Rectangle 7.jpg,
-                     images/Rectangle 7@2x.jpg 2x"
-              src="images/Rectangle 7.jpg"
-              alt="ЖК ПРАВОБЕРЕЖНЫЙ"
-            />
-            <p class="project__description">
-              ЖК НОРВЕЖСКИЙ ПАРК — 75 М² — 2023
-            </p>
-            <div class="project__details">
-              <a class="link2" href="/">Подробнее →</a>
-            </div>
-          </div>
-
-          <div class="project">
-            <img
-              class="project__image"
-              srcset="images/Rectangle 7_1.jpg,
-                     images/Rectangle 7_1@2x.jpg 2x"
-              src="images/Rectangle 7_1.jpg"
-              alt="ЖК ПРАВОБЕРЕЖНЫЙ"
-            />
-            <p class="project__description">
-              ЖК СОСНОВСКИЕ ОЗЕРА — 94 М² — 2022
-            </p>
-            <div class="project__details">
-              <a class="link2" href="/">Подробнее →</a>
-            </div>
-          </div>
-          <h3><a class="link3" href="/">Смотреть все проекты</a></h3>
-        </div>
-
-        <div class="services">
-          <h2 id="our-services">УСЛУГИ</h2>
-          <div class="service">
-            <img
-              class="service__image"
-              srcset="images/Rectangle 2.jpg,
-                     images/Rectangle 2@2x.jpg 2x"
-              src="images/Rectangle 2.jpg"
-              alt="Planning Solution"
-            />
-            <h3>Планировочное решение — от 2500₽/м²</h3>
-          </div>
-
-          <div class="service">
-            <img
-              class="service__image"
-              srcset="images/Rectangle 3.jpg,
-                      images/Rectangle 3@2x.jpg 2x"
-              src="images/Rectangle 3.jpg"
-              alt="Design project"
-            />
-            <h3>Дизайн-проект — от 3000₽/м²</h3>
-          </div>
-
-          <div class="service">
-            <img
-              class="service__image"
-              srcset="images/Rectangle 4.jpg,
-                  images/Rectangle 4@2x.jpg 2x"
-              src="images/Rectangle 4.jpg"
-              alt="Author's supervision"
-            />
-            <h3>Авторский надзор — от 30 000₽ в месяц</h3>
-          </div>
-
-          <div class="service__last">
-            <img
-              class="service__image"
-              srcset="images/Rectangle 5.jpg,
-                      images/Rectangle 5@2x.jpg 2x"
-              src="images/Rectangle 5.jpg"
-              alt="Complete set and specification"
-            />
-            <h3>Комплектация — 5% от стоимости спецификации</h3>
-          </div>
-        </div>
-
-        <div class="ready__project">
-          <img
-            srcset="images/Rectangle 10.jpg,
-                      images/Rectangle 10@2x.jpg 2x"
-            src="images/Rectangle 10.jpg"
-            alt="Two-room apartment project"
-          />
-          <p>Проект Двухкомнтаной квартиры в ЖК Лесной Пейзаж</p>
-        </div>
-
-        <div class="contacts">
-          <h2 id="our-contacts">Контакты</h2>
-          <h2>+7 935 895-45-35</h2>
-          <h2>hello@mail.com</h2>
-        </div>
-      </main>
-
-      <footer>
-        <div>
-          <img src="/" alt="black-rectangular" />
-          <a href="#about-us">О НАС</a>
-          <a href="#our-projects">ПРОЕКТЫ</a>
-          <a href="#our-services">УСЛУГИ</a>
-          <a href="#our-contacts">КОНТАКТЫ</a>
-          <h1>студия дизайна интерьера Метрика — 2023</h1>
-        </div>
-      </footer>
     </div>
+
+    <main>
+      <a class="link" id="about-us">О НАС</a>
+      <div class="story">
+        <h2>
+          Студия основана в 2011 году. Полностью отдаемся проектированию и
+          реализации интерьеров. К нам обращаются за уютом, индивидуальными
+          решениями и практичностью. Находим конструктивные решения для каждого
+          интерьера, вплоть до каждой детали — нацелены на результат.
+        </h2>
+      </div>
+
+      <a class="button" href="#our-services">Посмотреть услуги</a>
+
+      <div class="projects">
+        <h2 id="our-projects">ПРОЕКТЫ</h2>
+        <div class="project">
+          <img
+            class="project__image"
+            srcset="images/Rectangle 6.jpg,
+                      images/Rectangle 6@2x.jpg 2x"
+            src="images/Rectangle 6.jpg"
+            alt="ЖК ПРАВОБЕРЕЖНЫЙ"
+          />
+          <p class="project__description">ЖК ПРАВОБЕРЕЖНЫЙ — 112 м² — 2023</p>
+          <div class="project__details">
+            <a class="link2" href="/">Подробнее →</a>
+          </div>
+        </div>
+
+        <div class="project">
+          <img
+            class="project__image"
+            srcset="images/Rectangle 7.jpg,
+                      images/Rectangle 7@2x.jpg 2x"
+            src="images/Rectangle 7.jpg"
+            alt="ЖК ПРАВОБЕРЕЖНЫЙ"
+          />
+          <p class="project__description">ЖК НОРВЕЖСКИЙ ПАРК — 75 М² — 2023</p>
+          <div class="project__details">
+            <a class="link2" href="/">Подробнее →</a>
+          </div>
+        </div>
+
+        <div class="project">
+          <img
+            class="project__image"
+            srcset="images/Rectangle 7_1.jpg,
+                      images/Rectangle 7_1@2x.jpg 2x"
+            src="images/Rectangle 7_1.jpg"
+            alt="ЖК ПРАВОБЕРЕЖНЫЙ"
+          />
+          <p class="project__description">ЖК СОСНОВСКИЕ ОЗЕРА — 94 М² — 2022</p>
+          <div class="project__details">
+            <a class="link2" href="/">Подробнее →</a>
+          </div>
+        </div>
+        <h3><a class="link3" href="/">Смотреть все проекты</a></h3>
+      </div>
+
+      <div class="services">
+        <h2 id="our-services">УСЛУГИ</h2>
+        <div class="service">
+          <img
+            class="service__image"
+            srcset="images/Rectangle 2.jpg,
+                      images/Rectangle 2@2x.jpg 2x"
+            src="images/Rectangle 2.jpg"
+            alt="Planning Solution"
+          />
+          <h3>Планировочное решение — от 2500₽/м²</h3>
+        </div>
+
+        <div class="service">
+          <img
+            class="service__image"
+            srcset="images/Rectangle 3.jpg,
+                        images/Rectangle 3@2x.jpg 2x"
+            src="images/Rectangle 3.jpg"
+            alt="Design project"
+          />
+          <h3>Дизайн-проект — от 3000₽/м²</h3>
+        </div>
+
+        <div class="service">
+          <img
+            class="service__image"
+            srcset="images/Rectangle 4.jpg,
+                    images/Rectangle 4@2x.jpg 2x"
+            src="images/Rectangle 4.jpg"
+            alt="Author's supervision"
+          />
+          <h3>Авторский надзор — от 30 000₽ в месяц</h3>
+        </div>
+
+        <div class="service__last">
+          <img
+            class="service__image"
+            srcset="images/Rectangle 5.jpg,
+                        images/Rectangle 5@2x.jpg 2x"
+            src="images/Rectangle 5.jpg"
+            alt="Complete set and specification"
+          />
+          <h3>Комплектация — 5% от стоимости спецификации</h3>
+        </div>
+      </div>
+
+      <div class="readyproject">
+        <img
+          srcset="images/Rectangle 10.jpg,
+                        images/Rectangle 10@2x.jpg 2x"
+          src="images/Rectangle 10.jpg"
+          alt="Two-room apartment project"
+        />
+        <p class="readyproject__description">
+          Проект Двухкомнатной квартиры в ЖК Лесной Пейзаж
+        </p>
+      </div>
+
+      <div class="contacts">
+        <h2 id="our-contacts">Контакты</h2>
+        <h2>+7 935 895-45-35</h2>
+        <h2>hello@mail.com</h2>
+      </div>
+    </main>
+
+    <footer>
+      <div>
+        <img src="/" alt="black-rectangular" />
+        <a href="#about-us">О НАС</a>
+        <a href="#our-projects">ПРОЕКТЫ</a>
+        <a href="#our-services">УСЛУГИ</a>
+        <a href="#our-contacts">КОНТАКТЫ</a>
+        <h1>студия дизайна интерьера Метрика — 2023</h1>
+      </div>
+    </footer>
   </body>
 </html>

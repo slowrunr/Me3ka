@@ -1,23 +1,45 @@
 body {
   font-family: "Manrope", sans-serif;
-  background: #f5f5f5;
+  margin: 0 auto;
+  width: 1400px;
+  background: #ffffff;
   font-weight: 400;
+  letter-spacing: -0.03em;
+}
+
+h1 {
+  font-size: 60px;
+  line-height: 60px;
   color: #121212;
 }
 
-.page-container {
-  /*padding: 0 125px 0 125px;*/
-  width: 1400px;
-  background: #ffffff;
+h2 {
+  font-size: 45px;
+  line-height: 61px;
+  color: #121212;
+}
+
+h3 {
+  font-size: 30px;
+  line-height: 40.98px;
+  color: #121212;
+}
+
+p {
+  font-size: 20px;
+  line-height: 27.32px;
+  color: #ffffff;
 }
 
 nav {
+  visibility: hidden;
   height: 25px;
 }
 
 a {
   font-size: 18px;
-  line-height: 25px;
+  line-height: 24.59px;
+  color: #121212;
 }
 
 li {
@@ -26,41 +48,35 @@ li {
 }
 
 .header {
-  font-size: 60px;
-  line-height: 60px;
-  width: 996px;
+  margin-top: 128px;
+  margin-bottom: 150px;
+  width: 1150px;
+  height: 650px;
   text-align: left;
-  margin-top: 73.76px;
+}
+
+.header__text {
   margin-bottom: 30px;
+  height: 120px;
+  display: block;
 }
 
 .header__image {
+  height: 500px;
   background-image: url("../images/Rectangle 1.jpg");
   background-repeat: no-repeat;
-  padding-left: 19px;
+  padding-left: 40px;
   padding-top: 379px;
   padding-bottom: 40px;
-  margin-bottom: 150px;
 }
 
-.header__text p {
-  width: 460px;
+.header__descrition {
+  width: 430px;
   height: 81px;
-  color: #ffffff;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 27.32px;
+  display: block;
 }
 
-h2 {
-  margin-bottom: 30px;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 24.59px;
-  text-align: left;
-}
-
-.description p {
+.story h2 {
   width: 1048px;
   height: 366px;
   margin-top: 30px;
@@ -71,6 +87,11 @@ h2 {
 }
 
 .link {
+  margin-bottom: 30px;
+  display: block;
+}
+
+.button {
   margin-top: 30px;
   margin-bottom: 150px;
   width: 255px;
@@ -183,4 +204,20 @@ h3 {
 
 .service__last {
   margin-bottom: 0px;
+}
+
+.readyproject {
+  padding-left: 125px;
+  padding-bottom: 60px;
+  max-height: 717px;
+  background-image: url ("../images/Rectangle 10.jpg");
+  display: block;
+}
+
+.readyproject__description h3 {
+  font-size: 30px;
+  line-height: 40.98px;
+  text-align: left;
+  letter-spacing: -0.03em;
+  color: #ffffff;
 }
