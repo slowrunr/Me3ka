@@ -47,7 +47,7 @@ h1 {
   left: 40px;
   bottom: 40px;
   font-size: 20px;
-  line-height: 27.32px;
+  line-height: 27px;
   color: #ffffff;
   display: block;
 }
@@ -62,7 +62,7 @@ h1 {
 h2 {
   margin-bottom: 30px;
   font-size: 18px;
-  line-height: 24.59px;
+  line-height: 25px;
   color: #121212;
   display: block;
 }
@@ -71,7 +71,7 @@ h2 {
   margin-bottom: 30px;
   width: 1088px;
   font-size: 45px;
-  line-height: 61.47px;
+  line-height: 61px;
   color: #121212;
   display: block;
 }
@@ -104,7 +104,7 @@ h2 {
 h3 {
   margin-bottom: 15px;
   font-size: 30px;
-  line-height: 40.98px;
+  line-height: 41px;
   color: #121212;
 }
 
@@ -116,7 +116,7 @@ h3 {
   text-decoration: none;
   color: #ad1818;
   font-size: 20px;
-  line-height: 27.32px;
+  line-height: 27px;
 }
 
 .link2allprojects {
@@ -128,7 +128,7 @@ h3 {
   padding-bottom: 56px;
   background: #ffffff;
   text-align: center;
-  line-height: 40.98px;
+  line-height: 41px;
   font-size: 30px;
   cursor: pointer;
   color: #ad1818;
@@ -167,11 +167,11 @@ h4 {
   margin-bottom: 60px;
   color: #ffffff;
   font-size: 30px;
-  line-height: 40.98px;
+  line-height: 41px;
 }
 
 .service__last {
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
 
 .readymadeproject {
@@ -184,8 +184,9 @@ h4 {
 }
 
 .readyproject__description h3 {
+  visibility: hidden;
   font-size: 30px;
-  line-height: 40.98px;
+  line-height: 41px;
   text-align: left;
   letter-spacing: -0.03em;
   color: #ffffff;
