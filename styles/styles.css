@@ -52,7 +52,7 @@ h1 {
   display: block;
 }
 
-main {
+.about__us {
   width: 1051px;
   height: 518px;
   margin-bottom: 150px;
@@ -67,7 +67,7 @@ h2 {
   display: block;
 }
 
-.about__us {
+.about {
   margin-bottom: 30px;
   width: 1088px;
   font-size: 45px;
@@ -139,9 +139,9 @@ h3 {
   background: #ad1818;
 }
 
-.services__box {
+.services {
   width: 1400px;
-  margin-left: -100px;
+  margin-left: -125px;
   background-color: #121212;
   display: block;
 }
@@ -174,7 +174,7 @@ h4 {
   margin-bottom: 0px;
 }
 
-.readyproject {
+.readymadeproject {
   visibility: hidden;
   padding-left: 125px;
   padding-bottom: 60px;
