@@ -1,23 +1,39 @@
 body {
   font-family: "Manrope", sans-serif;
-  margin: 0 auto;
-  width: 1400px;
   background: #ffffff;
   font-weight: 400;
   letter-spacing: -0.03em;
   box-sizing: border-box;
 }
 
+.container {
+  margin: 0 auto;
+  width: 1400px;
+}
+
 nav {
   visibility: hidden;
-  height: 25px;
+  margin: 0 auto;
+  width: 1151.35px;
+}
+
+.logo__link {
+  margin-top: 0;
+}
+
+.logo {
+  display: inline-block;
+}
+
+.navbar {
+  display: inline-block;
 }
 
 header {
+  margin: 0 auto;
   margin-top: 128px;
   margin-bottom: 150px;
   width: 1150px;
-  height: 650px;
   display: block;
 }
 
@@ -49,6 +65,12 @@ h1 {
   font-size: 20px;
   line-height: 27px;
   color: #ffffff;
+  display: block;
+}
+
+main {
+  margin: 0 auto;
+  width: 1150px;
   display: block;
 }
 
@@ -159,12 +181,15 @@ h5 {
   display: block;
 }
 
+.service {
+  margin-bottom: 60px;
+}
+
 .service__image {
   margin-bottom: 15px;
 }
 
 h4 {
-  margin-bottom: 60px;
   color: #ffffff;
   font-size: 30px;
   line-height: 41px;
