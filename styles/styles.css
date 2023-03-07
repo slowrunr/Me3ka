@@ -63,9 +63,9 @@ li:nth-last-child(4) {
 }
 
 .nav__link:hover {
-  text-decoration: underline;
   color: black;
   opacity: 0.5;
+  border-bottom: 1px solid #000000;
 }
 
 header {
