@@ -11,40 +11,79 @@ body {
   width: 1400px;
 }
 
-nav {
-  visibility: hidden;
-  margin: 0 auto;
-  width: 1151.35px;
+.nav-section {
+  margin-top: 32.82px;
+  margin-bottom: 70px;
 }
 
-.logo__link {
-  margin-top: 0;
+.nav-container {
+  width: 1151.35px;
+  height: 25.18px;
+  margin: 0 auto;
+}
+
+.logo-link {
+  margin-right: 558px;
+  display: inline-block;
 }
 
 .logo {
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+li {
   display: inline-block;
 }
 
-.navbar {
+.nav {
+  margin-top: 0.18px;
   display: inline-block;
+  vertical-align: top;
+  font-size: 18px;
+}
+
+li {
+  float: right;
+  margin-right: 60px;
+  display: block;
+  font-weight: 400;
+  height: 25px;
+  line-height: 25px;
+  letter-spacing: -0.03em;
+  cursor: pointer;
+}
+
+li:nth-last-child(4) {
+  margin-right: 0;
+}
+
+.nav__link:hover {
+  text-decoration: underline;
+  color: black;
+  opacity: 0.5;
 }
 
 header {
   margin: 0 auto;
-  margin-top: 128px;
   margin-bottom: 150px;
   width: 1150px;
   display: block;
 }
 
 h1 {
-  width: 976px;
+  margin-bottom: 30px;
+  width: 956px;
+  height: 120px;
   font-size: 60px;
   line-height: 60px;
   color: #121212;
-  margin-bottom: 30px;
-  height: 120px;
   display: block;
+  letter-spacing: -0.03em;
 }
 
 .header__image {
@@ -54,7 +93,6 @@ h1 {
 
 .header__box {
   position: relative;
-  box-sizing: border-box;
 }
 
 .header__desc {
@@ -91,11 +129,13 @@ h2 {
 
 .about {
   margin-bottom: 30px;
-  width: 1088px;
+  width: 1048px;
+  height: 366px;
   font-size: 45px;
   line-height: 61px;
   color: #121212;
   display: block;
+  letter-spacing: -0.03em;
 }
 
 .button {
