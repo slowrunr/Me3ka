@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Manrope", sans-serif;
   background: #ffffff;
@@ -12,6 +16,7 @@ body {
 }
 
 .nav-section {
+  min-width: 1151.35px;
   margin-top: 32.82px;
   margin-bottom: 70px;
 }
@@ -63,8 +68,11 @@ li:nth-last-child(4) {
 }
 
 .nav__link:hover {
-  color: black;
   opacity: 0.5;
+}
+
+.nav__link:hover::after {
+  content: "";
   border-bottom: 1px solid #000000;
 }
 
