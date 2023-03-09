@@ -26,15 +26,15 @@ h2,
 }
 
 .nav-section {
-  min-width: 1151.35px;
   margin-top: 32.82px;
   margin-bottom: 70px;
+  width: 1151.35px;
 }
 
 .nav-container {
+  margin: 0 auto;
   width: 1151.35px;
   height: 25.18px;
-  margin: 0 auto;
 }
 
 .logo-link {
@@ -54,7 +54,7 @@ a {
 }
 
 li {
-  display: inline-block;
+  display: inline;
   float: right;
   margin-right: 60px;
   display: block;
@@ -126,9 +126,9 @@ main {
 }
 
 .about__us {
+  margin-bottom: 150px;
   width: 1051px;
   height: 518px;
-  margin-bottom: 150px;
   display: block;
 }
 
@@ -211,17 +211,17 @@ h3 {
 }
 
 .services {
-  width: 1400px;
   margin-left: -125px;
+  width: 1400px;
   background-color: #121212;
   display: block;
 }
 
 .services__container {
-  width: 1150px;
   margin: 0 auto;
+  width: 1150px;
   padding-top: 151px;
-  padding-bottom: 150px;
+  padding-bottom: 144px;
 }
 
 h5 {
@@ -250,24 +250,24 @@ h4 {
 
 .turnkeysolution {
   margin-bottom: 151px;
-  width: 1400px;
-  margin-left: -125px;
   height: 717px;
   background-image: url(../images/finishedproject.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 50% 50%;
+  background-position: 40% 50%;
 }
 
 .turnkeysolution__container {
-  padding-left: 125px;
+  padding-left: 349px;
   padding-top: 575px;
   width: 443px;
   text-align: left;
   color: white;
+  letter-spacing: -0.03em;
 }
 
 .contacts {
+  margin: 0 auto;
   width: 1150px;
   display: block;
 }
@@ -286,16 +286,16 @@ h4 {
 }
 
 .contacts__container {
-  margin-bottom: 160px;
+  margin-bottom: 184px;
   width: 473px;
+  height: 217px;
 }
 
 .phone {
   margin-bottom: 30px;
-  width: 472px;
   font-size: 60px;
   line-height: 60px;
-  letter-spacing: -0.02em;
+  letter-spacing: -0.019em;
 }
 
 .mail__box {
@@ -312,32 +312,46 @@ h4 {
   opacity: 0.5;
 }
 
-footer {
-  margin: 0 auto;
-  width: 1400px;
+.footer__lastbox {
+  position: relative;
   height: 229px;
   background-color: #121212;
-  display: block;
-}
-
-.footer__container {
-  width: 1150px;
-  color: #ffffff;
+  background-size: cover;
 }
 
 .footer__nav {
-  width: 450px;
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  width: 470px;
   height: 25px;
-  color: #ffffff;
-  display: inline-block;
+  top: 62px;
+  left: 733px;
 }
 
-.text__wrapper {
-  margin-bottom: 30px;
-  padding-top: 172px;
-  width: 418px;
-  height: 27px;
+.footer__link {
+  line-height: 25px;
+  text-transform: uppercase;
+}
+
+.footer__link__last {
+  width: 52px;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.footer__link:hover {
+  border-bottom: 1px solid #ffffff;
+  padding-bottom: 2px;
+  opacity: 0.5;
+}
+
+.footer__text {
+  position: absolute;
+  left: 732px;
+  bottom: 28px;
   font-size: 20px;
   line-height: 27px;
-  opacity: 0.5;
+  opacity: 50%;
+  color: #ffffff;
 }
