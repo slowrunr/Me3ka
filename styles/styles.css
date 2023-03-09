@@ -10,7 +10,7 @@ body {
   box-sizing: border-box;
 }
 
-.container {
+.container1400px {
   margin: 0 auto;
   width: 1400px;
 }
@@ -33,26 +33,18 @@ body {
 }
 
 .logo {
+  width: 126.89px;
+  height: 21.42px;
   display: block;
 }
 
 a {
   text-decoration: none;
-  color: black;
+  color: #000000;
 }
 
 li {
   display: inline-block;
-}
-
-.nav {
-  margin-top: 0.18px;
-  display: inline-block;
-  vertical-align: top;
-  font-size: 18px;
-}
-
-li {
   float: right;
   margin-right: 60px;
   display: block;
@@ -61,6 +53,13 @@ li {
   line-height: 25px;
   letter-spacing: -0.03em;
   cursor: pointer;
+}
+
+.nav {
+  margin-top: 0.18px;
+  display: inline-block;
+  vertical-align: top;
+  font-size: 18px;
 }
 
 li:nth-last-child(4) {
@@ -74,6 +73,7 @@ li:nth-last-child(4) {
 .nav__link:hover::after {
   content: "";
   border-bottom: 1px solid #000000;
+  opacity: 0.5;
 }
 
 header {
@@ -95,8 +95,8 @@ h1 {
 }
 
 .header__image {
-  width: 1150px;
   margin: 0 auto;
+  width: 1150px;
 }
 
 .header__box {
@@ -291,6 +291,47 @@ h4 {
   padding-bottom: 150px;
 }
 
+.mail__box::after {
+  content: "";
+  margin-left: 0;
+  margin-top: 10px;
+  height: 2px;
+  width: 406px;
+  display: block;
+  background-image: url("/images/Mail__underline.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  color: black;
+  opacity: 0.5;
+}
+
 footer {
-  visibility: hidden;
+  margin: 0 auto;
+  width: 1400px;
+  height: 229px;
+  background-color: #121212;
+  display: block;
+}
+
+.footer__container {
+  width: 1150px;
+  color: #ffffff;
+}
+
+.footer__nav {
+  width: 450px;
+  height: 25px;
+  color: #ffffff;
+  display: inline-block;
+}
+
+.text__wrapper {
+  margin-bottom: 30px;
+  padding-top: 172px;
+  width: 418px;
+  height: 27px;
+  font-size: 20px;
+  line-height: 27px;
+  opacity: 0.5;
 }
