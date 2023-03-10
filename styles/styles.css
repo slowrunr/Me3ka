@@ -20,9 +20,50 @@ h2,
   letter-spacing: -0.03em;
 }
 
-.container1400px {
+header {
   margin: 0 auto;
   width: 1400px;
+}
+
+.container1150px {
+  margin: 0 auto;
+  margin-bottom: 146px;
+  width: 1150px;
+  display: block;
+}
+
+h1 {
+  margin-bottom: 30px;
+  width: 956px;
+  height: 120px;
+  font-size: 60px;
+  line-height: 60px;
+  color: #121212;
+  display: block;
+}
+
+.header__image {
+  margin: 0 auto;
+  width: 1150px;
+}
+
+.header__box {
+  position: relative;
+}
+
+.header__desc {
+  position: absolute;
+  width: 430px;
+  height: 81px;
+  left: 40px;
+  bottom: 40px;
+  font-size: 20px;
+  line-height: 27px;
+  color: #ffffff;
+  display: block;
+}
+
+.container1400px {
 }
 
 .nav-section {
@@ -79,50 +120,6 @@ li:hover {
   opacity: 0.5;
   padding-bottom: 2px;
   border-bottom: 1px solid black;
-}
-
-header {
-  margin: 0 auto;
-  margin-bottom: 150px;
-  width: 1150px;
-  display: block;
-}
-
-h1 {
-  margin-bottom: 30px;
-  width: 956px;
-  height: 120px;
-  font-size: 60px;
-  line-height: 60px;
-  color: #121212;
-  display: block;
-}
-
-.header__image {
-  margin: 0 auto;
-  width: 1150px;
-}
-
-.header__box {
-  position: relative;
-}
-
-.header__desc {
-  position: absolute;
-  width: 430px;
-  height: 81px;
-  left: 40px;
-  bottom: 40px;
-  font-size: 20px;
-  line-height: 27px;
-  color: #ffffff;
-  display: block;
-}
-
-main {
-  margin: 0 auto;
-  width: 1150px;
-  display: block;
 }
 
 .about__us {
@@ -211,8 +208,6 @@ h3 {
 }
 
 .services {
-  margin-left: -125px;
-  width: 1400px;
   background-color: #121212;
   display: block;
 }
@@ -228,6 +223,7 @@ h5 {
   margin-bottom: 34px;
   color: #ffffff;
   display: block;
+  letter-spacing: -0.003em;
 }
 
 .service {
