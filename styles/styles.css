@@ -213,13 +213,13 @@ h3 {
 
 .services__container {
   margin: 0 auto;
-  width: 1150px;
-  padding-top: 151px;
+  width: 1147px;
+  padding-top: 155px;
   padding-bottom: 144px;
 }
 
 h5 {
-  margin-bottom: 34px;
+  margin-bottom: 38px;
   color: #ffffff;
   display: block;
   letter-spacing: -0.003em;
@@ -230,7 +230,7 @@ h5 {
 }
 
 .service__image {
-  margin-bottom: 15px;
+  margin-bottom: 13px;
 }
 
 h4 {
@@ -244,7 +244,7 @@ h4 {
 }
 
 .turnkeysolution {
-  margin-bottom: 151px;
+  margin-bottom: 155px;
   height: 717px;
   background-image: url(../images/turnkeysolution.jpg);
   background-repeat: no-repeat;
@@ -253,8 +253,8 @@ h4 {
 }
 
 .turnkeysolution__container {
-  padding-left: 349px;
-  padding-top: 575px;
+  padding-left: 127px;
+  padding-top: 578px;
   width: 443px;
   text-align: left;
   color: white;
@@ -263,7 +263,7 @@ h4 {
 
 .contacts {
   margin: 0 auto;
-  width: 1150px;
+  width: 1015px;
   display: block;
 }
 
@@ -281,7 +281,7 @@ h4 {
 }
 
 .contacts__container {
-  margin-bottom: 184px;
+  margin-bottom: 188px;
   width: 473px;
   height: 217px;
 }
@@ -308,8 +308,7 @@ h4 {
 }
 
 footer {
-  padding-top: 60px;
-  padding-bottom: 30px;
+  position: relative;
   height: 229px;
   background-color: #121212;
   display: block;
@@ -319,16 +318,16 @@ footer {
   margin: 0 auto;
   width: 1150px;
   height: 25px;
-  display: inline-block;
 }
 
 .footer__links {
-  margin-bottom: 87px;
+  position: absolute;
+  left: 467px;
+  top: 63px;
   height: 25px;
 }
 
 .footer__link {
-  display: inline-block;
   line-height: 25px;
   text-transform: uppercase;
   font-size: 18px;
@@ -340,7 +339,9 @@ footer {
 }
 
 .footer__text {
-  text-align: right;
+  position: absolute;
+  left: 505px;
+  bottom: 26px;
   font-size: 20px;
   line-height: 27px;
   opacity: 50%;
