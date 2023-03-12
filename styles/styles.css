@@ -68,7 +68,7 @@ h1 {
 .nav-section {
   margin-top: 32.82px;
   margin-bottom: 70px;
-  width: 1151.35px;
+  min-width: 1151.35px;
 }
 
 .nav-container {
@@ -245,6 +245,7 @@ h4 {
 
 .turnkeysolution {
   margin-bottom: 155px;
+  min-height: 443px;
   height: 717px;
   background-image: url(../images/turnkeysolution.jpg);
   background-repeat: no-repeat;
@@ -262,14 +263,13 @@ h4 {
 }
 
 .contacts {
-  margin: 0 auto;
-  width: 1015px;
+  padding-left: 124px;
+  min-width: 1015px;
   display: block;
 }
 
 .contacts__anchor::before {
   content: "";
-  margin-left: 0;
   margin-bottom: 13px;
   width: 13px;
   height: 22px;
@@ -309,6 +309,7 @@ h4 {
 
 footer {
   position: relative;
+  min-width: 1150px;
   height: 229px;
   background-color: #121212;
   display: block;
