@@ -246,12 +246,14 @@ h4 {
 
 .turnkeysolution {
   position: relative;
+  width: 100%;
   min-width: 1400px;
   margin-bottom: 155px;
   height: 717px;
   background-image: url(../images/turnkeysolution.jpg);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
+  background-position: 50%;
 }
 
 .turnkeysolution__container {
