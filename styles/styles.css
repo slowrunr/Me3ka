@@ -207,13 +207,14 @@ h3 {
 }
 
 .services {
+  min-width: 1400px;
   background-color: #121212;
   display: block;
 }
 
 .services__container {
   margin: 0 auto;
-  width: 1147px;
+  width: 1150px;
   padding-top: 155px;
   padding-bottom: 144px;
 }
@@ -244,22 +245,23 @@ h4 {
 }
 
 .turnkeysolution {
+  position: relative;
+  min-width: 1400px;
   margin-bottom: 155px;
-  min-height: 443px;
   height: 717px;
   background-image: url(../images/turnkeysolution.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 40% 50%;
+  background-size: contain;
 }
 
 .turnkeysolution__container {
-  padding-left: 127px;
-  padding-top: 578px;
+  position: absolute;
+  left: 125px;
+  bottom: 60px;
   width: 443px;
-  text-align: left;
-  color: white;
-  letter-spacing: -0.03em;
+  height: 82px;
+  color: #ffffff;
+  display: block;
 }
 
 .contacts {
@@ -309,10 +311,9 @@ h4 {
 
 footer {
   position: relative;
-  min-width: 1150px;
+  min-width: 1400px;
   height: 229px;
   background-color: #121212;
-  display: block;
 }
 
 .footer__nav {
