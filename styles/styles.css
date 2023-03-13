@@ -72,13 +72,12 @@ h1 {
 }
 
 .nav-container {
-  margin: 0 auto;
-  width: 1151.35px;
+  width: 1216px;
   height: 25.18px;
 }
 
 .logo-link {
-  margin-right: 558px;
+  margin-right: 556px;
   display: inline-block;
 }
 
@@ -96,12 +95,16 @@ a {
 li {
   display: inline;
   float: right;
-  margin-right: 60px;
+  /*margin-right: 60px;*/
   display: block;
   font-weight: 400;
   height: 25px;
   line-height: 25px;
   cursor: pointer;
+}
+
+.nav__link {
+  margin-right: 60px;
 }
 
 .nav {
@@ -216,7 +219,7 @@ h3 {
   margin: 0 auto;
   width: 1150px;
   padding-top: 155px;
-  padding-bottom: 142px;
+  padding-bottom: 150px;
 }
 
 h5 {
@@ -278,7 +281,7 @@ h4 {
   width: 13px;
   height: 22px;
   display: block;
-  background-image: url("/images/phone__logo.png");
+  background-image: url("../images/phone__logo.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50%;
@@ -287,7 +290,7 @@ h4 {
 .contacts__container {
   margin-bottom: 188px;
   width: 473px;
-  height: 217px;
+  height: 212px;
 }
 
 .phone {
@@ -326,12 +329,13 @@ footer {
 
 .footer__links {
   position: absolute;
-  left: 467px;
-  top: 63px;
+  left: 469px;
+  top: 59px;
   height: 25px;
 }
 
 .footer__link {
+  margin-right: 55px;
   line-height: 25px;
   text-transform: uppercase;
   font-size: 18px;
@@ -344,8 +348,8 @@ footer {
 
 .footer__text {
   position: absolute;
-  left: 505px;
-  bottom: 26px;
+  left: 510px;
+  bottom: 30px;
   font-size: 20px;
   line-height: 27px;
   opacity: 50%;
