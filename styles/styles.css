@@ -118,7 +118,7 @@ li:nth-last-child(4) {
   margin-right: 0;
 }
 
-li:hover {
+.nav__link:hover {
   opacity: 0.5;
   padding-bottom: 2px;
   border-bottom: 1px solid black;
@@ -251,7 +251,7 @@ h4 {
   position: relative;
   width: 100%;
   min-width: 1400px;
-  margin-bottom: 155px;
+  margin-bottom: 150px;
   height: 717px;
   background-image: url(../images/turnkeysolution.jpg);
   background-repeat: no-repeat;
@@ -270,7 +270,7 @@ h4 {
 }
 
 .contacts {
-  padding-left: 124px;
+  padding-left: 185px;
   min-width: 1015px;
   display: block;
 }
@@ -329,7 +329,7 @@ footer {
 
 .footer__links {
   position: absolute;
-  left: 469px;
+  left: 530px;
   top: 59px;
   height: 25px;
 }
@@ -348,7 +348,7 @@ footer {
 
 .footer__text {
   position: absolute;
-  left: 510px;
+  left: 563px;
   bottom: 30px;
   font-size: 20px;
   line-height: 27px;
