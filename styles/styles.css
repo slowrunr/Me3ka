@@ -3,14 +3,101 @@ html {
 }
 
 body {
+  margin: 0 auto;
   font-family: "Manrope", sans-serif;
-  background: #ffffff;
   font-weight: 400;
-  letter-spacing: -0.03em;
   box-sizing: border-box;
 }
 
-li,
+header {
+  margin: 0 auto 150px;
+  width: 1150px;
+}
+
+h1,
+h2,
+p,
+a,
+div {
+  letter-spacing: -0.03em;
+}
+
+.nav {
+  float: right;
+  margin: 0 auto;
+  padding: 33px 0 70px;
+  width: 1150px;
+  height: 25px;
+}
+
+.logo {
+  margin-right: 558px;
+  width: 126px;
+  display: inline-block;
+}
+
+menu {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.nav__link {
+  display: inline-block;
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.nav__link a {
+  text-decoration: none;
+  color: #121212;
+}
+
+.nav__link:nth-child(2) {
+  margin-left: 57px;
+  margin-right: 57px;
+}
+
+.nav__link:nth-child(3) {
+  margin-right: 56.5px;
+}
+
+.nav__link:hover {
+  opacity: 0.5;
+  padding-bottom: 2px;
+  border-bottom: 1px solid black;
+}
+
+h1 {
+  margin-bottom: 30px;
+  width: 956px;
+  min-height: 120px;
+  font-size: 60px;
+  line-height: 60px;
+  color: #121212;
+  display: block;
+}
+
+.header__image {
+  position: relative;
+  margin: 0 auto;
+  height: 500px;
+}
+
+.header__desc p {
+  position: absolute;
+  left: 40px;
+  bottom: 40px;
+  max-width: 430px;
+  min-height: 81px;
+  font-size: 20px;
+  line-height: 27px;
+  color: #ffffff;
+}
+
+/*li,
 h1,
 h2,
 .header__desc,
@@ -354,4 +441,4 @@ footer {
   opacity: 50%;
   color: #ffffff;
   display: block;
-}
+}*/
