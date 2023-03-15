@@ -33,7 +33,7 @@ div {
 }
 
 .logo {
-  margin-right: 558px;
+  margin-right: 554px;
   width: 126px;
   display: inline-block;
 }
@@ -43,7 +43,8 @@ div {
   vertical-align: top;
 }
 
-.nav__link {
+.nav__link,
+.footer__link {
   display: inline-block;
   height: 25px;
   line-height: 25px;
@@ -69,7 +70,8 @@ div {
 .promo,
 .about,
 .projects,
-.services-container {
+.services-container,
+.contacts {
   width: 1150px;
   margin: 0 auto 150px;
   color: #121212;
@@ -259,98 +261,90 @@ h2 {
   font-size: 30px;
   line-height: 41px;
   color: #ffffff;
+  letter-spacing: -0.03em;
   display: block;
 }
-
-/*
-
-
-
 
 .contacts {
-  padding-left: 185px;
-  min-width: 1015px;
+  margin-bottom: 160px;
   display: block;
 }
 
-.contacts__anchor::before {
+.contacts h2 {
+  margin-bottom: 32px;
+}
+
+.contacts h2::before {
   content: "";
   margin-bottom: 13px;
   width: 13px;
   height: 22px;
-  display: block;
   background-image: url("../images/phone__logo.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50%;
+  display: block;
 }
 
-.contacts__container {
-  margin-bottom: 188px;
-  width: 473px;
-  height: 212px;
-}
-
-.phone {
-  margin-bottom: 30px;
+.phone__number {
+  margin-bottom: 28px;
   font-size: 60px;
   line-height: 60px;
-  letter-spacing: -0.019em;
+  display: block;
+  letter-spacing: -0.013em;
 }
 
-.mail__box {
+.send__email {
   width: 412px;
   font-size: 60px;
   line-height: 60px;
-  letter-spacing: -0.03em;
   opacity: 0.5;
-}
-
-.mail__box:hover {
   border-bottom: 2px solid #121212;
-  padding-bottom: 8px;
-  opacity: 0.5;
 }
 
 footer {
   position: relative;
-  min-width: 1400px;
+  min-width: 100%;
+  margin: 0 auto;
+  padding-top: 60px;
   height: 229px;
   background-color: #121212;
+  display: block;
 }
 
 .footer__nav {
   margin: 0 auto;
-  width: 1150px;
+  margin-left: 470px;
+  min-width: 450px;
   height: 25px;
+  display: inline-block;
+  text-decoration: none;
 }
 
-.footer__links {
-  position: absolute;
-  left: 530px;
-  top: 59px;
-  height: 25px;
+.footer__link:nth-child(1) {
+  margin-right: 53px;
 }
 
-.footer__link {
+.footer__link:nth-child(3) {
+  margin-left: 52px;
   margin-right: 55px;
-  line-height: 25px;
-  text-transform: uppercase;
-  font-size: 18px;
-  color: #ffffff;
 }
 
-.footer__link:hover {
+footer a {
+  color: #ffffff !important;
+}
+
+footer a:hover {
   opacity: 0.5;
 }
 
-.footer__text {
+footer p {
   position: absolute;
-  left: 563px;
-  bottom: 30px;
+  left: 510px;
+  bottom: 86px;
   font-size: 20px;
   line-height: 27px;
-  opacity: 50%;
   color: #ffffff;
+  opacity: 0.5;
   display: block;
-}*/
+}
