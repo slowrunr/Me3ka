@@ -238,9 +238,6 @@ h2 {
   margin-bottom: 0;
 }
 
-/*
-
-
 .turnkeysolution {
   position: relative;
   width: 100%;
@@ -253,15 +250,22 @@ h2 {
   background-position: 50%;
 }
 
-.turnkeysolution__container {
+.turnkeysolution p {
   position: absolute;
   left: 125px;
   bottom: 60px;
   width: 443px;
   height: 82px;
+  font-size: 30px;
+  line-height: 41px;
   color: #ffffff;
   display: block;
 }
+
+/*
+
+
+
 
 .contacts {
   padding-left: 185px;
