@@ -281,7 +281,7 @@ h2 {
   margin-bottom: 13px;
   width: 13px;
   height: 22px;
-  background-image: url("../images/phone-logo.png")
+  background-image: url("../images/phone-logo.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50%;
