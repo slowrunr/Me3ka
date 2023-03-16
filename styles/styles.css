@@ -3,18 +3,17 @@ html {
 }
 
 body {
-  /*min-width: 1400px;*/
   margin: 0 auto;
+  min-width: 1400px;
   font-family: "Manrope", sans-serif;
   font-weight: 400;
   box-sizing: border-box;
+  background: #ffffff;
 }
 
 header {
-  margin: 0 auto;
-  margin-bottom: 70px;
+  margin-bottom: 70px !important;
   padding-top: 33px;
-  width: 1150px;
   height: 25px;
 }
 
@@ -68,18 +67,20 @@ div {
   border-bottom: 1px solid black;
 }
 
+header,
 .promo,
 .about,
 .projects,
-.services-container,
 .contacts {
-  width: 1150px;
-  margin: 0 auto 150px;
-  color: #121212;
+  margin: 0 auto;
+  margin-bottom: 150px;
+  width: 1400px;
+  padding-left: 125px;
   display: block;
 }
 
 .promo h1 {
+  margin-top: 70px;
   margin-bottom: 30px;
   width: 956px;
   height: 120px;
@@ -305,32 +306,23 @@ h2 {
 }
 
 footer {
-  text-align: center;
-  padding-top: 60px;
-  padding-bottom: 30px;
-  width: 100%;
+  padding: 60px 0 30px 0;
   height: 229px;
-  background-color: #121212;
-  display: block;
+  background: #121212;
 }
 
 .footer__nav {
   margin: 0 auto;
-  margin-bottom: 88px;
-  width: 1387px;
-  height: 25px;
-  display: inline-block;
-  text-decoration: none;
-  border: 1px;
+  width: 460px;
 }
 
-.footer__link:nth-child(1) {
-  margin-right: 53px;
-}
-
-.footer__link:nth-child(3) {
-  margin-left: 52px;
-  margin-right: 55px;
+footer p {
+  padding-top: 89px;
+  text-align: center;
+  color: #ffffff;
+  font-size: 20px;
+  line-height: 27px;
+  opacity: 0.5;
 }
 
 footer a {
@@ -340,13 +332,10 @@ footer a {
 footer a:hover {
   opacity: 0.5;
 }
+.footer__link {
+  margin-left: 53px;
+}
 
-footer p {
-  margin: 0 auto;
-  width: 1405px;
-  font-size: 20px;
-  line-height: 27px;
-  color: #ffffff;
-  opacity: 0.5;
-  display: block;
+.footer__link:first-child {
+  margin-left: 0;
 }
