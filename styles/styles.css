@@ -248,7 +248,7 @@ h2 {
   min-width: 1400px;
   margin-bottom: 150px;
   height: 717px;
-  background-image: url(../images/turnkeysolution.jpg);
+  background-image: url(../images/turnkey-solution.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50%;
@@ -281,7 +281,7 @@ h2 {
   margin-bottom: 13px;
   width: 13px;
   height: 22px;
-  background-image: url("../images/phone__logo.png");
+  background-image: url("../images/phone-logo.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50%;
@@ -305,10 +305,9 @@ h2 {
 }
 
 footer {
-  position: relative;
-  min-width: 1400px;
-  margin: 0 auto;
   padding-top: 60px;
+  padding-bottom: 30px;
+  min-width: 1400px;
   height: 229px;
   background-color: #121212;
   display: block;
@@ -316,8 +315,9 @@ footer {
 
 .footer__nav {
   margin: 0 auto;
-  margin-left: 470px;
-  min-width: 450px;
+  margin-bottom: 87px;
+  padding-left: 643px;
+  width: 1150px;
   height: 25px;
   display: inline-block;
   text-decoration: none;
@@ -341,9 +341,8 @@ footer a:hover {
 }
 
 footer p {
-  position: absolute;
-  left: 510px;
-  bottom: 86px;
+  margin: 0 auto;
+  text-align: center;
   font-size: 20px;
   line-height: 27px;
   color: #ffffff;
