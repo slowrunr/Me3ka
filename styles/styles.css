@@ -39,7 +39,7 @@ div {
   display: inline-block;
 }
 
-.menu {
+.nav__links {
   display: inline-block;
   vertical-align: top;
 }
@@ -75,7 +75,7 @@ header,
 .contacts {
   margin: 0 auto;
   margin-bottom: 150px;
-  width: 1400px;
+  width: 1275px;
   padding-left: 125px;
   display: block;
 }
@@ -243,7 +243,6 @@ h2 {
 }
 
 .turnkeysolution {
-  position: relative;
   min-width: 100%;
   margin-bottom: 150px;
   height: 717px;
@@ -253,10 +252,14 @@ h2 {
   background-position: 50%;
 }
 
+.turnkeysolution__container {
+  position: relative;
+  margin: 0 auto;
+  width: 1150px;
+}
 .turnkeysolution p {
   position: absolute;
-  left: 125px;
-  bottom: 60px;
+  top: 575px;
   width: 443px;
   height: 82px;
   font-size: 30px;
