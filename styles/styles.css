@@ -28,15 +28,9 @@ div {
   color: #121212;
 }
 
-.nav {
-  float: right;
-  height: 25px;
-}
-
 .logo {
   margin-right: 555px;
   width: 126px;
-  display: inline-block;
 }
 
 .nav__links {
@@ -81,14 +75,9 @@ header,
 }
 
 .promo h1 {
-  margin-top: 70px;
   margin-bottom: 30px;
   width: 956px;
-  height: 120px;
   font-size: 60px;
-  line-height: 60px;
-  color: #121212;
-  display: block;
 }
 
 .promo__box {
@@ -96,16 +85,14 @@ header,
 }
 
 .promo__image {
-  height: 500px;
   display: block;
 }
 
-.promo__desc {
+.promo p {
   position: absolute;
   left: 40px;
   bottom: 40px;
   width: 430px;
-  height: 81px;
   font-size: 20px;
   line-height: 27px;
   color: #ffffff;
@@ -117,11 +104,6 @@ header,
 .contacts h2 {
   margin-bottom: 30px;
 }
-.about {
-  margin-bottom: 150px;
-  height: 518px;
-  display: block;
-}
 
 h2 {
   margin-bottom: 32px;
@@ -129,28 +111,23 @@ h2 {
   line-height: 24.59px;
 }
 
-.about__us {
+.about p {
   margin-bottom: 30px;
   width: 1048px;
-  height: 366px;
   font-size: 45px;
-  line-height: 61px;
-  color: #121212;
-  display: block;
+  line-height: 61.47px;
 }
 
-.button {
+.about a {
   width: 255px;
   height: 67px;
   display: block;
   color: #ffffff;
   background: #ad1818;
   border-radius: 5px;
-  text-decoration: none;
   text-align: center;
   line-height: 67px;
   font-size: 20px;
-  cursor: pointer;
 }
 
 .projects {
@@ -242,22 +219,22 @@ h2 {
   margin-bottom: 0;
 }
 
-.turnkeysolution {
+.turnkeyinterior {
   min-width: 100%;
   margin-bottom: 150px;
   height: 717px;
-  background-image: url(../images/turnkey-solution.jpg);
+  background-image: url(../images/bedroom-interior.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50%;
 }
 
-.turnkeysolution__container {
+.turnkeyinterior__container {
   position: relative;
   margin: 0 auto;
   width: 1150px;
 }
-.turnkeysolution p {
+.turnkeyinterior p {
   position: absolute;
   top: 575px;
   width: 443px;
