@@ -21,8 +21,7 @@ header {
 h1,
 h2,
 p,
-a,
-div {
+a {
   letter-spacing: -0.03em;
   text-decoration: none;
   color: #121212;
@@ -68,10 +67,9 @@ header,
 .projects,
 .contacts {
   margin: 0 auto;
-  margin-bottom: 150px;
+  margin-bottom: 148px;
   width: 1275px;
   padding-left: 125px;
-  display: block;
 }
 
 .promo h1 {
@@ -84,10 +82,6 @@ header,
   position: relative;
 }
 
-.promo__image {
-  display: block;
-}
-
 .promo p {
   position: absolute;
   left: 40px;
@@ -98,15 +92,8 @@ header,
   color: #ffffff;
 }
 
-.about h2,
-.projects h2,
-.services h2,
-.contacts h2 {
-  margin-bottom: 30px;
-}
-
 h2 {
-  margin-bottom: 32px;
+  margin-bottom: 30px;
   font-size: 18px;
   line-height: 24.59px;
 }
@@ -130,49 +117,40 @@ h2 {
   font-size: 20px;
 }
 
-.projects {
-  margin-bottom: 150px;
-  display: block;
-}
-
 .project__image {
   margin-bottom: 15px;
 }
 
-.project__desc {
-  margin-bottom: 15px;
+.project p {
+  margin-bottom: 13px;
   font-size: 30px;
   line-height: 41px;
-  letter-spacing: -0.03em;
 }
 
-.details {
-  margin-bottom: 88px;
-}
-
-.details__link {
-  text-decoration: none;
-  color: #ad1818;
+.project a {
+  margin-bottom: 90px;
+  display: block;
+  width: 127px;
   font-size: 20px;
   line-height: 27px;
-  width: 127px;
-  display: block;
+  color: #ad1818;
+  text-decoration: none;
 }
 
 .allProjects {
+  padding-top: 56px;
+  padding-bottom: 56px;
+  display: block;
   width: 1150px;
+  background: #ffffff;
   border: 1px solid #ad1818;
   border-radius: 5px;
   text-decoration: none;
-  padding-top: 56px;
-  padding-bottom: 56px;
-  background: #ffffff;
   text-align: center;
   line-height: 41px;
   font-size: 30px;
   cursor: pointer;
   color: #ad1818;
-  display: block;
 }
 
 .allProjects:hover {
@@ -187,41 +165,32 @@ h2 {
 }
 
 .services__container {
-  width: 1150px;
   margin: 0 auto;
-  padding-left: 3px;
   padding-top: 151px;
   padding-bottom: 150px;
-  display: block;
+  width: 1150px;
 }
 
 .services h2 {
   margin-bottom: 34px;
   color: #ffffff;
-  display: block;
+}
+
+.service__image {
+  margin-bottom: 14px;
 }
 
 .services p {
+  margin-bottom: 60px;
+  padding-left: 5px;
   color: #ffffff;
   font-size: 30px;
   line-height: 41px;
 }
 
-.service__desc {
-  margin-bottom: 60px;
-}
-
-.service__image {
-  margin-bottom: 13px;
-}
-
-.service__desc__last {
-  margin-bottom: 0;
-}
-
 .turnkeyinterior {
+  margin-bottom: 153px;
   min-width: 100%;
-  margin-bottom: 150px;
   height: 717px;
   background-image: url(../images/bedroom-interior.jpg);
   background-repeat: no-repeat;
@@ -243,12 +212,13 @@ h2 {
   line-height: 41px;
   color: #ffffff;
   letter-spacing: -0.03em;
-  display: block;
 }
 
 .contacts {
   margin-bottom: 160px;
   display: block;
+  font-size: 60px;
+  line-height: 60px;
 }
 
 .contacts h2 {
@@ -256,8 +226,8 @@ h2 {
 }
 
 .contacts h2::before {
-  content: "";
   margin-bottom: 13px;
+  content: "";
   width: 13px;
   height: 22px;
   background-image: url("../images/phone-logo.png");
@@ -269,24 +239,19 @@ h2 {
 
 .phone__number {
   margin-bottom: 28px;
-  font-size: 60px;
-  line-height: 60px;
   display: block;
   letter-spacing: -0.013em;
 }
 
 .send__email {
-  width: 412px;
-  font-size: 60px;
-  line-height: 60px;
   opacity: 0.5;
   border-bottom: 2px solid #121212;
 }
 
 footer {
+  padding: 60px 0 30px 0;
   min-width: 100%;
   width: 1400px;
-  padding: 60px 0 30px 0;
   height: 229px;
   background: #121212;
 }
@@ -296,15 +261,6 @@ footer {
   width: 466px;
 }
 
-footer p {
-  padding-top: 89px;
-  text-align: center;
-  color: #ffffff;
-  font-size: 20px;
-  line-height: 27px;
-  opacity: 0.5;
-}
-
 footer a {
   color: #ffffff !important;
 }
@@ -312,10 +268,20 @@ footer a {
 footer a:hover {
   opacity: 0.5;
 }
+
 .footer__link {
   margin-left: 53px;
 }
 
 .footer__link:first-child {
   margin-left: 0;
+}
+
+footer p {
+  padding-top: 89px;
+  text-align: center;
+  color: #ffffff;
+  font-size: 20px;
+  line-height: 27px;
+  opacity: 0.5;
 }
