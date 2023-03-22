@@ -62,7 +62,7 @@ a {
 }
 
 header,
-.promo,
+.welcome,
 .about,
 .projects,
 .contacts {
@@ -72,17 +72,17 @@ header,
   padding-left: 125px;
 }
 
-.promo h1 {
+.welcome h1 {
   margin-bottom: 30px;
   width: 956px;
   font-size: 60px;
 }
 
-.promo__box {
+.welcome__text {
   position: relative;
 }
 
-.promo p {
+.welcome p {
   position: absolute;
   left: 40px;
   bottom: 40px;
