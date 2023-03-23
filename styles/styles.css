@@ -1,17 +1,22 @@
+/*23.03 added 2 queries @1199px&@767px and .container. resized h1. try to eliminate fixed width&paddings in body*/
 html {
   scroll-behavior: smooth;
 }
 
 body {
-  margin: 0 auto;
+  /*margin: 0 auto;
   min-width: 100%;
-  width: 1400px;
+  width: 1400px;*/
   font-family: "Manrope", sans-serif;
   font-weight: 400;
   box-sizing: border-box;
   background: #ffffff;
 }
 
+.container {
+  margin: 0 auto;
+  width: 1150px;
+}
 header {
   margin-bottom: 70px !important;
   padding-top: 33px;
@@ -288,4 +293,27 @@ footer p {
   font-size: 20px;
   line-height: 27px;
   opacity: 0.5;
+}
+
+@media (max-width: 1199px) {
+  .container {
+    width: 100%;
+    padding: 0 17px 0 15px;
+  }
+
+  h1 {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 767px) {
+  .container {
+    width: 100%;
+    padding: 0 12px 0 13px;
+  }
+
+  h1 {
+    font-size: 30px;
+    line-height: 32px;
+  }
 }
