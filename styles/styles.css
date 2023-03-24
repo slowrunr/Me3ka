@@ -301,8 +301,10 @@ footer p {
     padding: 0 17px 0 15px;
   }
 
-  h1 {
+  .welcome h1 {
+    width: 802px;
     font-size: 50px;
+    line-height: 60px;
   }
 }
 
@@ -312,7 +314,7 @@ footer p {
     padding: 0 12px 0 13px;
   }
 
-  h1 {
+  .welcome h1 {
     font-size: 30px;
     line-height: 32px;
   }
