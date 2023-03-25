@@ -17,6 +17,7 @@ body {
   margin: 0 auto;
   width: 1150px;
 }
+
 header {
   margin-bottom: 70px !important;
   padding-top: 33px;
@@ -73,14 +74,16 @@ header,
 .contacts {
   margin: 0 auto;
   margin-bottom: 149px;
-  width: 1275px;
-  padding-left: 125px;
+  /*width: 1275px;
+  padding-left: 125px;*/
 }
 
 .welcome h1 {
   margin-bottom: 30px;
-  width: 956px;
+  max-width: 956px;
+  max-height: 120px;
   font-size: 60px;
+  line-height: 60px;
 }
 
 .welcome__text {
@@ -302,21 +305,24 @@ footer p {
   }
 
   .welcome h1 {
-    width: 802px;
     font-size: 50px;
     line-height: 60px;
+    max-width: 801px;
   }
 }
 
 @media (max-width: 767px) {
   .container {
-    width: 100%;
+    width: 350px;
     padding: 0 12px 0 13px;
   }
 
   .welcome h1 {
+    margin-bottom: 25px;
     font-size: 30px;
     line-height: 32px;
+    max-height: 95px;
+    max-width: 337px;
   }
 
   .welcome__text {
