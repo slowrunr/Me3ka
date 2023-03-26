@@ -73,8 +73,8 @@ header,
 .contacts {
   margin: 0 auto;
   margin-bottom: 149px;
-  width: 1275px;
-  padding-left: 125px;
+  /*width: 1275px;
+  padding-left: 125px;*/
 }
 
 .welcome h1 {
