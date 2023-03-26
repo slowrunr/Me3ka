@@ -306,6 +306,10 @@ footer p {
     font-size: 50px;
     line-height: 60px;
   }
+
+  .welcome__image {
+    max-width: 100%;
+  }
 }
 
 @media (max-width: 767px) {
@@ -315,12 +319,15 @@ footer p {
   }
 
   .welcome h1 {
+    margin-bottom: 25px;
     font-size: 30px;
     line-height: 32px;
+    max-width: 281px;
   }
 
-  .welcome__text {
+  .welcome p {
     font-size: 16px;
     line-height: 22px;
+    max-width: 311px;
   }
 }
