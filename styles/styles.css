@@ -83,8 +83,11 @@ header,
   font-size: 60px;
 }
 
-.welcome__text {
+.welcome__image {
+  margin-bottom: 150px;
   position: relative;
+  background-image: url(../images/grey-armchair.jpg);
+  height: 500px;
 }
 
 .welcome p {
@@ -308,7 +311,22 @@ footer p {
   }
 
   .welcome__image {
-    max-width: 100%;
+    margin-bottom: 120px;
+    position: relative;
+    background-image: url(../images/grey-armchair-tblt.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+  }
+
+  .welcome p {
+    position: absolute;
+    left: 40px;
+    bottom: 40px;
+    width: 430px;
+    font-size: 20px;
+    line-height: 27px;
+    color: #ffffff;
   }
 }
 
@@ -325,9 +343,21 @@ footer p {
     max-width: 281px;
   }
 
+  .welcome__image {
+    margin-bottom: 80px;
+    position: relative;
+    background-image: url(../images/grey-armchair-mbl.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 304px;
+  }
+
   .welcome p {
+    position: absolute;
+    left: 40px;
+    bottom: 40px;
+    width: 310px;
     font-size: 16px;
     line-height: 22px;
-    max-width: 311px;
   }
 }
