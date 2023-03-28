@@ -66,16 +66,16 @@ a {
   border-bottom: 1px solid black;
 }
 
-header,
+/*header,
 .welcome,
 .about,
 .projects,
 .contacts {
   margin: 0 auto;
   margin-bottom: 149px;
-  /*width: 1275px;
-  padding-left: 125px;*/
-}
+  width: 1275px;
+  padding-left: 125px;
+}*/
 
 .welcome h1 {
   margin-bottom: 30px;
@@ -100,7 +100,7 @@ header,
   color: #ffffff;
 }
 
-h2 {
+.about h2 {
   margin-bottom: 30px;
   font-size: 18px;
   line-height: 24.59px;
@@ -315,18 +315,30 @@ footer p {
     position: relative;
     background-image: url(../images/grey-armchair-tblt.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     height: 400px;
+    max-width: 928px;
   }
 
   .welcome p {
     position: absolute;
     left: 40px;
-    bottom: 40px;
+    bottom: 30px;
     width: 430px;
     font-size: 20px;
     line-height: 27px;
     color: #ffffff;
+  }
+
+  .about p {
+    margin-bottom: 30px;
+    width: 690px;
+    font-size: 35px;
+    line-height: 48px;
+  }
+
+  .about a {
+    margin-bottom: 120px;
   }
 }
 
@@ -340,7 +352,7 @@ footer p {
     margin-bottom: 25px;
     font-size: 30px;
     line-height: 32px;
-    max-width: 281px;
+    max-width: 337px;
   }
 
   .welcome__image {
@@ -348,16 +360,40 @@ footer p {
     position: relative;
     background-image: url(../images/grey-armchair-mbl.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     height: 304px;
+    max-width: 350px;
   }
 
   .welcome p {
     position: absolute;
-    left: 40px;
-    bottom: 40px;
+    left: 15px;
+    bottom: 15px;
     width: 310px;
     font-size: 16px;
     line-height: 22px;
+  }
+
+  .about h2 {
+    margin-bottom: 20px;
+    font-size: 14px;
+    line-height: 19px;
+  }
+
+  .about p {
+    margin-bottom: 30px;
+    width: 346px;
+    font-size: 22px;
+    line-height: 30px;
+  }
+
+  .about a {
+    margin-bottom: 80px;
+    width: 194px;
+    height: 51px;
+    border-radius: 3.8px;
+    text-align: center;
+    line-height: 51px;
+    font-size: 16px;
   }
 }
