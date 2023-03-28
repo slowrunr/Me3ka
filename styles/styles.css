@@ -374,7 +374,8 @@ footer p {
     line-height: 22px;
   }
 
-  .about h2 {
+  .about h2,
+  .projects h2 {
     margin-bottom: 20px;
     font-size: 14px;
     line-height: 19px;
@@ -395,5 +396,25 @@ footer p {
     text-align: center;
     line-height: 51px;
     font-size: 16px;
+  }
+
+  .project__image {
+    margin-bottom: 20px;
+    max-width: 350px;
+    height: 250px;
+  }
+
+  .project p {
+    margin-bottom: 11px;
+    font-size: 18px;
+    line-height: 24.59px;
+  }
+
+  .project a {
+    margin-bottom: 49px;
+    display: block;
+    width: 101px;
+    font-size: 16px;
+    line-height: 22px;
   }
 }
