@@ -4,9 +4,9 @@ html {
 }
 
 body {
-  /*margin: 0 auto;
+  margin: 0 auto;
   min-width: 100%;
-  width: 1400px;*/
+  width: 1400px;
   font-family: "Manrope", sans-serif;
   font-weight: 400;
   box-sizing: border-box;
@@ -14,7 +14,7 @@ body {
 }
 
 .container {
-  margin: 0 auto;
+  margin: 0 auto 150px;
   width: 1150px;
 }
 header {
@@ -100,7 +100,8 @@ a {
   color: #ffffff;
 }
 
-.about h2 {
+.about h2,
+.projects h2 {
   margin-bottom: 30px;
   font-size: 18px;
   line-height: 24.59px;
