@@ -6,7 +6,7 @@ html {
 body {
   margin: 0 auto;
   min-width: 100%;
-  width: 1400px;
+  max-width: 1400px;
   font-family: "Manrope", sans-serif;
   font-weight: 400;
   box-sizing: border-box;
@@ -304,7 +304,9 @@ footer p {
 
 @media (max-width: 1199px) {
   .container {
-    width: 100%;
+    margin: 0 auto 120px;
+    min-width: 100%;
+    max-width: 960px;
     padding: 0 17px 0 15px;
   }
 
@@ -341,10 +343,6 @@ footer p {
     line-height: 48px;
   }
 
-  .about a {
-    margin-bottom: 120px;
-  }
-
   .project__image {
     margin-bottom: 15px;
     max-width: 980px;
@@ -364,11 +362,11 @@ footer p {
   }
 
   .project {
-    margin-bottom: 49px;
+    margin-bottom: 80px;
   }
 
   .project:last-of-type {
-    margin-bottom: 60px;
+    margin-bottom: 102px;
   }
 
   .allProjects {
@@ -384,7 +382,8 @@ footer p {
 
 @media (max-width: 767px) {
   .container {
-    width: 100%;
+    min-width: 100%;
+    max-width: 375px;
     padding: 0 12px 0 13px;
   }
 
