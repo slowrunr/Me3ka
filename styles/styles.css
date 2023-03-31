@@ -212,19 +212,32 @@ a {
   object-fit: contain;
 }
 
+.service__image_box {
+  position: relative;
+}
+
 .services p {
+  padding-left: 3px;
   color: #ffffff;
   font-size: 30px;
   line-height: 41px;
 }
 
-/*.service__item_last {
-  margin-bottom: 0px;
-}*/
+.service__image_box p {
+  position: absolute;
+  padding: 0 21px;
+  height: 40px;
+  top: 31px;
+  left: 30px;
+  background: #ad1818;
+  border-radius: 5px;
+  font-size: 22px !important;
+  line-height: 40px !important;
+  text-align: center;
+}
 
 .orderService {
-  padding-top: 56px;
-  padding-bottom: 56px;
+  padding: 56px 0;
   display: block;
   width: 1150px;
   background: #ad1818;
