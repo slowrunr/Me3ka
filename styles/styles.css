@@ -101,7 +101,8 @@ a {
 }
 
 .about h2,
-.projects h2 {
+.projects h2,
+.services h2 {
   margin-bottom: 30px;
   font-size: 18px;
   line-height: 24.59px;
@@ -183,23 +184,35 @@ a {
 }
 
 .services__list {
+  margin-bottom: 106px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 
+.service__item {
+  margin-bottom: 85px;
+  width: calc(50% - 5.5px);
+}
+
+.service__item_last {
+  margin-bottom: 0;
+  width: calc(50% - 5.5px);
+}
+
 .services h2 {
-  margin-bottom: 34px;
+  margin-bottom: 30px;
   color: #ffffff;
 }
 
 .service__image {
-  margin-bottom: 14px;
+  margin-bottom: 25px;
+  width: 100%;
+  height: 389px;
+  object-fit: contain;
 }
 
 .services p {
-  margin-bottom: 60px;
-  padding-left: 5px;
   color: #ffffff;
   font-size: 30px;
   line-height: 41px;
