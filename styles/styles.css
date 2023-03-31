@@ -172,7 +172,6 @@ a {
 
 .services {
   min-width: 100%;
-  height: 1847px;
   background-color: #121212;
 }
 
@@ -181,6 +180,12 @@ a {
   padding-top: 151px;
   padding-bottom: 150px;
   width: 1150px;
+}
+
+.services__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .services h2 {
@@ -200,8 +205,23 @@ a {
   line-height: 41px;
 }
 
-.service__item_last {
+/*.service__item_last {
   margin-bottom: 0px;
+}*/
+
+.orderService {
+  padding-top: 56px;
+  padding-bottom: 56px;
+  display: block;
+  width: 1150px;
+  background: #ad1818;
+  border-radius: 5px;
+  text-decoration: none;
+  text-align: center;
+  line-height: 41px;
+  font-size: 30px;
+  cursor: pointer;
+  color: #ffffff;
 }
 
 .turnkeyinterior {
