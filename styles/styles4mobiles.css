@@ -1,0 +1,157 @@
+@media (max-width: 767px) {
+  .welcome,
+  .about,
+  .projects,
+  .contacts,
+  .user-reviews,
+  .contacts {
+    margin-bottom: 80px;
+    min-width: 375px;
+    padding: 0 12px 0 13px;
+  }
+
+  .welcome h1 {
+    margin-top: 108px;
+    margin-bottom: 25px;
+    font-size: 30px;
+    line-height: 32px;
+    width: 337px;
+  }
+
+  .welcome__image {
+    margin-bottom: 80px;
+    position: relative;
+    background-image: url(../images/grey-armchair-mbl.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 304px;
+  }
+
+  .welcome p {
+    position: absolute;
+    left: 15px;
+    bottom: 15px;
+    width: 310px;
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  .about h2,
+  .projects h2 {
+    margin-bottom: 20px;
+    font-size: 14px;
+    line-height: 19px;
+  }
+
+  .about p {
+    margin-bottom: 30px;
+    width: 346px;
+    font-size: 22px;
+    line-height: 30px;
+  }
+
+  .about a {
+    margin-bottom: 80px;
+    width: 194px;
+    height: 51px;
+    border-radius: 3.8px;
+    text-align: center;
+    line-height: 51px;
+    font-size: 16px;
+  }
+
+  .projects {
+    margin-bottom: 144px;
+  }
+
+  .project__image {
+    margin-bottom: 20px;
+    width: 100%;
+    height: 250px;
+  }
+
+  .project p {
+    margin-bottom: 11px;
+    font-size: 18px;
+    line-height: 24.59px;
+  }
+
+  .project a {
+    display: block;
+    width: 101px;
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  .project {
+    margin-bottom: 49px;
+  }
+
+  .project:last-of-type {
+    margin-bottom: 60px;
+  }
+
+  .allProjects {
+    padding: 37px 0;
+    max-width: 350px;
+    border: 0.76px solid #ad1818;
+    border-radius: 3.8px;
+    line-height: 30px;
+    font-size: 22px;
+  }
+
+  .services {
+    margin: 0 auto;
+    min-width: 100%;
+    max-width: 386px;
+    background-color: white !important;
+  }
+
+  .services__container {
+    margin: 0 auto;
+    padding: 80px 15px 21px;
+    min-width: 100%;
+    background-color: #121212;
+  }
+
+  .services h2 {
+    margin-bottom: 20px;
+    font-size: 14px;
+    line-height: 19px;
+  }
+
+  .service__item,
+  .service__item_last {
+    margin-bottom: 60px;
+    width: 100%;
+  }
+
+  /*.service__image {
+      margin-bottom: 10px;
+      max-width: 350px;
+      min-width: 100%;
+      height: 240px;
+      object-fit: cover;
+    }*/
+
+  .services p {
+    padding-left: 1.8px;
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 25px;
+  }
+
+  /*эта строчка отменяет действие тега <br>*/
+  br {
+    content: " ";
+    display: none;
+  }
+
+  .service__image_box p {
+    padding: 0 27px;
+    left: 32px;
+    top: 31px;
+    font-size: 20px !important;
+    line-height: 40px !important;
+  }
+}

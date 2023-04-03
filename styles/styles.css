@@ -5,23 +5,26 @@ html {
 
 body {
   margin: 0 auto;
-  min-width: 100%;
-  max-width: 1400px;
+  /*min-width: 100%;
+  max-width: 1400px;*/
   font-family: "Manrope", sans-serif;
   font-weight: 400;
   box-sizing: border-box;
   background: #ffffff;
 }
 
-.container {
-  margin: 0 auto 150px;
-  width: 1150px;
-}
-
 header {
   margin-bottom: 70px !important;
   padding-top: 33px;
   height: 25px;
+}
+
+.welcome,
+.about,
+.projects,
+.contacts {
+  margin: 0 auto 150px;
+  width: 1150px;
 }
 
 h1,
@@ -67,18 +70,8 @@ a {
   border-bottom: 1px solid black;
 }
 
-/*header,
-.welcome,
-.about,
-.projects,
-.contacts {
-  margin: 0 auto;
-  margin-bottom: 149px;
-  width: 1275px;
-  padding-left: 125px;
-}*/
-
 .welcome h1 {
+  margin-top: 128px;/*эту строчку нужно убрать, когда добавлю панель навигации*/
   margin-bottom: 30px;
   width: 956px;
   font-size: 60px;
@@ -88,6 +81,7 @@ a {
   margin-bottom: 150px;
   position: relative;
   background-image: url(../images/grey-armchair.jpg);
+  background-repeat: no-repeat;
   height: 500px;
 }
 
@@ -347,283 +341,4 @@ footer p {
   font-size: 20px;
   line-height: 27px;
   opacity: 0.5;
-}
-
-@media (max-width: 1199px) {
-  .container {
-    margin: 0 auto 120px;
-    min-width: 100%;
-    max-width: 960px;
-    padding: 0 17px 0 15px;
-  }
-
-  .welcome h1 {
-    width: 802px;
-    font-size: 50px;
-    line-height: 60px;
-  }
-
-  .welcome__image {
-    margin-bottom: 120px;
-    position: relative;
-    background-image: url(../images/grey-armchair-tblt.jpg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 400px;
-    max-width: 928px;
-  }
-
-  .welcome p {
-    position: absolute;
-    left: 40px;
-    bottom: 30px;
-    width: 430px;
-    font-size: 20px;
-    line-height: 27px;
-    color: #ffffff;
-  }
-
-  .about p {
-    margin-bottom: 30px;
-    width: 690px;
-    font-size: 35px;
-    line-height: 48px;
-  }
-
-  .project__image {
-    margin-bottom: 15px;
-    max-width: 980px;
-    height: 450px;
-  }
-
-  .project p {
-    margin-bottom: 10px;
-    font-size: 25px;
-    line-height: 34px;
-  }
-
-  .project a {
-    width: 127px;
-    font-size: 20px;
-    line-height: 27px;
-  }
-
-  .project {
-    margin-bottom: 80px;
-  }
-
-  .project:last-of-type {
-    margin-bottom: 102px;
-  }
-
-  .allProjects {
-    padding: 56px 0;
-    max-width: 928px;
-    border: 1px solid #ad1818;
-    border-radius: 5px;
-    font-size: 30px;
-    line-height: 41px;
-    text-align: center;
-  }
-
-  .services {
-    margin: 0 auto;
-    min-width: 100%;
-    max-width: 980px;
-    background-color: white !important;
-  }
-
-  .services__container {
-    margin: 0 auto;
-    padding: 151px 23px 120px 27px;
-    min-width: 100%;
-    background-color: #121212;
-  }
-
-  .services__list {
-    margin-bottom: 80px;
-  }
-
-  .service__item,
-  .service__item_last {
-    margin-bottom: 80px;
-    width: calc(50% - 5px);
-  }
-
-  .service__image {
-    margin-bottom: 15px;
-    width: 100%;
-    height: 315px;
-    object-fit: cover;
-  }
-
-  .services p {
-    padding-left: 1.8px;
-    color: #ffffff;
-    font-size: 25px;
-    line-height: 34px;
-  }
-
-  /*эта строчка отменяет действие тега <br>*/
-  br {
-    content: " ";
-    display: none;
-  }
-
-  .service__image_box p {
-    padding: 0 27px;
-    left: 32px;
-    top: 31px;
-    font-size: 20px !important;
-    line-height: 40px !important;
-  }
-}
-
-@media (max-width: 767px) {
-  .container {
-    min-width: 100%;
-    max-width: 375px;
-    padding: 0 12px 0 13px;
-  }
-
-  .welcome h1 {
-    margin-bottom: 25px;
-    font-size: 30px;
-    line-height: 32px;
-    max-width: 337px;
-  }
-
-  .welcome__image {
-    margin-bottom: 80px;
-    position: relative;
-    background-image: url(../images/grey-armchair-mbl.jpg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 304px;
-    max-width: 350px;
-  }
-
-  .welcome p {
-    position: absolute;
-    left: 15px;
-    bottom: 15px;
-    width: 310px;
-    font-size: 16px;
-    line-height: 22px;
-  }
-
-  .about h2,
-  .projects h2 {
-    margin-bottom: 20px;
-    font-size: 14px;
-    line-height: 19px;
-  }
-
-  .about p {
-    margin-bottom: 30px;
-    width: 346px;
-    font-size: 22px;
-    line-height: 30px;
-  }
-
-  .about a {
-    margin-bottom: 80px;
-    width: 194px;
-    height: 51px;
-    border-radius: 3.8px;
-    text-align: center;
-    line-height: 51px;
-    font-size: 16px;
-  }
-
-  .project__image {
-    margin-bottom: 20px;
-    width: 350px;
-    height: 250px;
-  }
-
-  .project p {
-    margin-bottom: 11px;
-    font-size: 18px;
-    line-height: 24.59px;
-  }
-
-  .project a {
-    display: block;
-    width: 101px;
-    font-size: 16px;
-    line-height: 22px;
-  }
-
-  .project {
-    margin-bottom: 49px;
-  }
-
-  .project:last-of-type {
-    margin-bottom: 60px;
-  }
-
-  .allProjects {
-    padding: 37px 0;
-    max-width: 350px;
-    border: 0.76px solid #ad1818;
-    border-radius: 3.8px;
-    line-height: 30px;
-    font-size: 22px;
-  }
-
-  .services {
-    margin: 0 auto;
-    min-width: 100%;
-    max-width: 386px;
-    background-color: white !important;
-  }
-
-  .services__container {
-    margin: 0 auto;
-    padding: 80px 15px 21px;
-    min-width: 100%;
-    background-color: #121212;
-  }
-
-  .services h2 {
-    margin-bottom: 20px;
-    font-size: 14px;
-    line-height: 19px;
-  }
-
-  .service__item,
-  .service__item_last {
-    margin-bottom: 60px;
-    width: 100%;
-  }
-
-  /*.service__image {
-    margin-bottom: 10px;
-    max-width: 350px;
-    min-width: 100%;
-    height: 240px;
-    object-fit: cover;
-  }*/
-
-  .services p {
-    padding-left: 1.8px;
-    color: #ffffff;
-    font-size: 18px;
-    line-height: 25px;
-  }
-
-  /*эта строчка отменяет действие тега <br>*/
-  br {
-    content: " ";
-    display: none;
-  }
-
-  .service__image_box p {
-    padding: 0 27px;
-    left: 32px;
-    top: 31px;
-    font-size: 20px !important;
-    line-height: 40px !important;
-  }
 }

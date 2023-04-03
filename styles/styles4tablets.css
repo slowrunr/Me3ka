@@ -1,0 +1,135 @@
+@media (max-width: 1199px) {
+  .welcome,
+  .about,
+  .projects,
+  .contacts {
+    margin-bottom: 120px;
+    width: 100%;
+    padding: 0 17px 0 15px;
+  }
+
+  .welcome h1 {
+    width: 802px;
+    font-size: 50px;
+    line-height: 60px;
+  }
+
+  .welcome__image {
+    margin-bottom: 120px;
+    position: relative;
+    background-image: url(../images/grey-armchair-tblt.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 400px;
+    width: 100%;
+  }
+
+  .welcome p {
+    position: absolute;
+    left: 40px;
+    bottom: 30px;
+    width: 430px;
+    font-size: 20px;
+    line-height: 27px;
+    color: #ffffff;
+  }
+
+  .about p {
+    margin-bottom: 30px;
+    width: 690px;
+    font-size: 35px;
+    line-height: 48px;
+  }
+
+  .projects {
+    margin-bottom: 103px;
+  }
+
+  .project__image {
+    margin-bottom: 15px;
+    max-width: 980px;
+    height: 450px;
+  }
+
+  .project p {
+    margin-bottom: 10px;
+    font-size: 25px;
+    line-height: 34px;
+  }
+
+  .project a {
+    width: 127px;
+    font-size: 20px;
+    line-height: 27px;
+  }
+
+  .project {
+    margin-bottom: 80px;
+  }
+
+  .project:last-of-type {
+    margin-bottom: 102px;
+  }
+
+  .allProjects {
+    padding: 56px 0;
+    max-width: 928px;
+    border: 1px solid #ad1818;
+    border-radius: 5px;
+    font-size: 30px;
+    line-height: 41px;
+    text-align: center;
+  }
+
+  .services {
+    margin: 0 auto;
+    min-width: 100%;
+    max-width: 980px;
+    background-color: white !important;
+  }
+
+  .services__container {
+    margin: 0 auto;
+    padding: 151px 23px 120px 27px;
+    min-width: 100%;
+    background-color: #121212;
+  }
+
+  .services__list {
+    margin-bottom: 80px;
+  }
+
+  .service__item,
+  .service__item_last {
+    margin-bottom: 80px;
+    width: calc(50% - 5px);
+  }
+
+  .service__image {
+    margin-bottom: 15px;
+    width: 100%;
+    height: 315px;
+    object-fit: cover;
+  }
+
+  .services p {
+    padding-left: 1.8px;
+    color: #ffffff;
+    font-size: 25px;
+    line-height: 34px;
+  }
+
+  /*эта строчка отменяет действие тега <br>*/
+  br {
+    content: " ";
+    display: none;
+  }
+
+  .service__image_box p {
+    padding: 0 27px;
+    left: 32px;
+    top: 31px;
+    font-size: 20px !important;
+    line-height: 40px !important;
+  }
+}
