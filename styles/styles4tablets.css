@@ -82,11 +82,12 @@
   }
 
   .services__container {
-    padding: 151px 0 120px 15px;
+    padding: 151px 15px 120px;
   }
 
   .services h2 {
     padding-left: 4px;
+    max-width: 66px;
   }
 
   .services__list {
