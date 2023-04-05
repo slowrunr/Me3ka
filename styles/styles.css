@@ -169,7 +169,6 @@ a {
 
 .services {
   background-color: #121212;
-  color: #ffffff;
 }
 
 .services__container {
@@ -192,7 +191,7 @@ a {
 }
 
 .service__item {
-  width: 570px;
+  max-width: 570px;
 }
 
 .service__image {

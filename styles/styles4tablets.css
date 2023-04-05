@@ -87,17 +87,16 @@
 
   .services h2 {
     padding-left: 4px;
-    max-width: 66px;
   }
 
   .services__list {
-    margin-bottom: 80px;
+    margin-bottom: 7px;
+    row-gap: 4px;
   }
 
-  .service__item,
-  .service__item_last {
+  .service__item {
     margin-bottom: 80px;
-    width: calc(50% - 5px);
+    max-width: 460px;
   }
 
   .service__image,
@@ -120,9 +119,6 @@
     content: " ";
     display: none;
   }
-  .service__image_box {
-    max-width: 460px;
-  }
 
   .service__image_box p {
     padding: 0 27px;
@@ -130,5 +126,9 @@
     top: 31px;
     font-size: 20px !important;
     line-height: 40px !important;
+  }
+
+  .orderService {
+    max-width: 928px;
   }
 }
