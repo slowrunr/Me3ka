@@ -1,7 +1,6 @@
 /*вид для планшетов*/
 @media (max-width: 1199px) {
   .welcome,
-  .about,
   .projects,
   .services__container,
   .contacts {
