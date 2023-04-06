@@ -1,12 +1,13 @@
+/*вид для планшетов*/
 @media (max-width: 1199px) {
   .welcome,
   .about,
   .projects,
   .services__container,
   .contacts {
-    margin-bottom: 120px;
+    margin: 0 auto 120px;
     width: 100%;
-    padding: 0 17px 0 15px;
+    max-width: 930px;
   }
 
   .welcome h1 {
@@ -77,12 +78,8 @@
     text-align: center;
   }
 
-  .services {
-    margin-bottom: 117px !important;
-  }
-
   .services__container {
-    padding: 151px 15px 120px;
+    padding: 151px 0 120px;
   }
 
   .services h2 {
