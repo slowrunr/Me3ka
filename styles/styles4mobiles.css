@@ -1,15 +1,15 @@
 /*вид для смартфонов*/
 @media (max-width: 767px) {
-  .welcome,
-  .sprojects,
-  .services__container,
+  .intro,
+  .about,
+  .projects,
   .contacts {
     margin: 0 auto 80px;
     width: 100%;
-    max-width: 386px;
+    max-width: 375px;
   }
 
-  .welcome h1 {
+  .intro h1 {
     margin-top: 108px;
     margin-bottom: 25px;
     font-size: 30px;
@@ -17,7 +17,7 @@
     max-width: 337px;
   }
 
-  .welcome__image {
+  .intro__image {
     margin-bottom: 80px;
     position: relative;
     background-image: url(../images/grey-armchair-mbl.jpg);
@@ -26,7 +26,7 @@
     height: 304px;
   }
 
-  .welcome p {
+  .intro p {
     position: absolute;
     left: 15px;
     bottom: 15px;
@@ -44,7 +44,7 @@
 
   .about p {
     margin-bottom: 30px;
-    width: 345px;
+    max-width: 345px;
     font-size: 22px;
     line-height: 30px;
   }
@@ -100,7 +100,8 @@
   }
 
   .services__container {
-    padding: 80px 0;
+    padding-top: 80px;
+    padding-bottom: 80px;
   }
 
   .services h2 {

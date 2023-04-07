@@ -1,6 +1,7 @@
 /*вид для планшетов*/
 @media (max-width: 1199px) {
-  .welcome,
+  .intro,
+  .about,
   .projects,
   .services__container,
   .contacts {
@@ -9,13 +10,13 @@
     max-width: 930px;
   }
 
-  .welcome h1 {
+  .intro h1 {
     max-width: 802px;
     font-size: 50px;
     line-height: 60px;
   }
 
-  .welcome__image {
+  .intro__image {
     margin-bottom: 120px;
     position: relative;
     background-image: url(../images/grey-armchair-tblt.jpg);
@@ -25,7 +26,7 @@
     width: 100%;
   }
 
-  .welcome p {
+  .intro p {
     position: absolute;
     left: 40px;
     bottom: 30px;
@@ -37,7 +38,6 @@
 
   .about p {
     margin-bottom: 30px;
-    padding-left: 3px;
     max-width: 690px;
     font-size: 35px;
     line-height: 48px;
