@@ -1,4 +1,4 @@
-/*23.03 added 2 queries @1199px&@767px and .container. resized h1. try to eliminate fixed width&paddings in body*/
+/*общие свойства для секций и тегов*/
 html {
   scroll-behavior: smooth;
 }
@@ -8,12 +8,6 @@ body {
   font-weight: 400;
   box-sizing: border-box;
   background: #ffffff;
-}
-
-header {
-  margin-bottom: 70px;
-  padding-top: 33px;
-  height: 25px;
 }
 
 .intro,
@@ -34,39 +28,15 @@ a {
   color: #121212;
 }
 
-/*.logo {
-  margin-right: 555px;
-  width: 126px;
-}
-
-.nav__links {
-  display: inline-block;
-  vertical-align: top;
-}
-
-.nav__link,
-.footer__link {
-  display: inline-block;
-  height: 25px;
-  line-height: 25px;
-  text-align: center;
+.about h2,
+.projects h2,
+.services h2 {
+  margin-bottom: 30px;
   font-size: 18px;
+  line-height: 25px;
 }
 
-.nav__link:nth-child(2) {
-  margin-left: 60px;
-  margin-right: 57px;
-}
-
-.nav__link:nth-child(3) {
-  margin-right: 56.5px;
-}
-
-.nav__link:hover {
-  opacity: 0.5;
-  padding-bottom: 2px;
-  border-bottom: 1px solid black;
-}*/
+/*секция "вступление"*/
 
 .intro h1 {
   margin-top: 128px; /*эту строчку нужно убрать, когда добавлю панель навигации*/
@@ -95,13 +65,7 @@ a {
   color: #ffffff;
 }
 
-.about h2,
-.projects h2,
-.services h2 {
-  margin-bottom: 30px;
-  font-size: 18px;
-  line-height: 24.59px;
-}
+/*секция "о нас"*/
 
 .about p {
   margin-bottom: 30px;
@@ -121,6 +85,8 @@ a {
   line-height: 67px;
   font-size: 20px;
 }
+
+/*секция "проекты"*/
 
 .project {
   margin-bottom: 90px;
@@ -166,6 +132,8 @@ a {
   color: #ffffff;
   background: #ad1818;
 }
+
+/*секция "услуги"*/
 
 .services {
   background-color: #121212;
@@ -243,6 +211,10 @@ a {
   color: #ffffff;
 }
 
+/*секция "отзывы наших клиентов"*/
+
+/*секция "интерьеры под ключ"*/
+
 /*.turnkeyinterior {
   margin-bottom: 150px;
   min-width: 100%;
@@ -269,7 +241,9 @@ a {
   letter-spacing: -0.03em;
 }
 
-.contacts {
+/*секция "контакты"*/
+
+/*.contacts {
   margin-bottom: 160px;
   display: block;
   font-size: 60px;
@@ -301,42 +275,4 @@ a {
 .send__email {
   opacity: 0.5;
   border-bottom: 2px solid #121212;
-}
-
-footer {
-  padding: 60px 0 30px 0;
-  min-width: 100%;
-  width: 1400px;
-  height: 229px;
-  background: #121212;
-}
-
-.footer__nav {
-  margin: 0 auto;
-  width: 466px;
-}
-
-footer a {
-  color: #ffffff !important;
-}
-
-footer a:hover {
-  opacity: 0.5;
-}
-
-.footer__link {
-  margin-left: 53px;
-}
-
-.footer__link:first-child {
-  margin-left: 0;
-}
-
-footer p {
-  padding-top: 89px;
-  text-align: center;
-  color: #ffffff;
-  font-size: 20px;
-  line-height: 27px;
-  opacity: 0.5;
 }*/
