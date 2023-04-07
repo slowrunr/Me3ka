@@ -3,6 +3,7 @@
   .intro,
   .about,
   .projects,
+  .services__container,
   .contacts {
     margin: 0 auto 80px;
     width: 100%;
@@ -92,11 +93,17 @@
 
   .allProjects {
     padding: 37px 0;
-    max-width: 350px;
+    width: 100%;
     border: 0.76px solid #ad1818;
     border-radius: 3.8px;
     line-height: 30px;
     font-size: 22px;
+  }
+
+  .services {
+    width: 100%;
+    max-width: 386px;
+    background-color: #121212;
   }
 
   .services__container {

@@ -78,7 +78,8 @@
   }
 
   .services__container {
-    padding: 151px 0 120px;
+    padding-top: 151px;
+    padding-bottom: 120px;
   }
 
   .services h2 {
