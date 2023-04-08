@@ -3,12 +3,14 @@
   .intro,
   .about,
   .projects,
-  .services__container,
+  .container,
   .contacts {
     margin: 0 auto 120px;
     width: 100%;
     max-width: 930px;
   }
+
+  /*секция "вступление"*/
 
   .intro h1 {
     max-width: 802px;
@@ -36,12 +38,16 @@
     color: #ffffff;
   }
 
+  /*секция "о нас"*/
+
   .about p {
     margin-bottom: 30px;
     max-width: 690px;
     font-size: 35px;
     line-height: 48px;
   }
+
+  /*секция "проекты"*/
 
   .projects {
     margin-bottom: 103px;
@@ -77,8 +83,9 @@
     text-align: center;
   }
 
-  .services__container {
-    padding-top: 151px;
+  /*секция "услуги"*/
+
+  .padded {
     padding-bottom: 120px;
   }
 
@@ -86,7 +93,7 @@
     padding-left: 4px;
   }
 
-  .services__list {
+  .services__wrapper {
     margin-bottom: 7px;
     row-gap: 4px;
   }
@@ -96,8 +103,7 @@
     max-width: 460px;
   }
 
-  .service__image,
-  .welcome__image_last {
+  .service__image {
     margin-bottom: 15px;
     max-width: 460px;
     height: 315px;
@@ -111,12 +117,6 @@
     line-height: 34px;
   }
 
-  /*эта строчка отменяет действие тега <br>*/
-  br {
-    content: " ";
-    display: none;
-  }
-
   .service__image_box p {
     padding: 0 27px;
     left: 32px;
@@ -128,4 +128,22 @@
   .orderService {
     max-width: 928px;
   }
+}
+
+/*секция "отзывы наших клиентов"*/
+
+.testimonial__box {
+  margin-bottom: 80px;
+  width: calc(50% - 5px);
+}
+
+.customer__info {
+  margin-bottom: 14px;
+  font-size: 35px;
+  line-height: 48px;
+}
+
+.customer__said {
+  font-size: 20px;
+  line-height: 27px;
 }

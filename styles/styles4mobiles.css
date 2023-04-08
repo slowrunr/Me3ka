@@ -106,7 +106,7 @@
     background-color: #121212;
   }
 
-  .services__container {
+  .padded {
     padding-top: 80px;
     padding-bottom: 80px;
   }
@@ -117,7 +117,8 @@
     font-size: 14px;
     line-height: 19px;
   }
-  .services__list {
+
+  .services__wrapper {
     margin-bottom: 0;
     display: block;
     row-gap: 0;
@@ -128,8 +129,7 @@
     margin-bottom: 60px;
   }
 
-  .service__image,
-  .service__image_last {
+  .service__image {
     margin-bottom: 10px;
     width: 100%;
     max-height: 240px;

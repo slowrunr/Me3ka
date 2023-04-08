@@ -140,7 +140,7 @@ a {
   background-color: #121212;
 }
 
-.services__container {
+.padded {
   padding-top: 151px;
   padding-bottom: 150px;
 }
@@ -151,16 +151,19 @@ a {
   color: #ffffff;
 }
 
-.services__list {
-  margin-bottom: 106px;
+.services__wrapper {
   display: flex;
   flex-wrap: wrap;
-  column-gap: 10px;
-  row-gap: 43px;
+  justify-content: space-between;
 }
 
 .service__item {
-  max-width: 570px;
+  margin-bottom: 81px;
+  width: calc(50%-5.5px);
+}
+
+.last_item {
+  margin-bottom: 104px;
 }
 
 .service__image {
@@ -170,8 +173,8 @@ a {
   object-fit: contain;
 }
 
-.service__image_last {
-  margin-bottom: 15px;
+.last_image {
+  margin-bottom: 26px;
 }
 
 .service__image_box {
@@ -223,8 +226,6 @@ a {
 .testimonial__box {
   margin-bottom: 50px;
   width: calc(50% - 24.5px);
-  background-color: aqua;
-  border: 1px solid red;
 }
 
 .last_box {
