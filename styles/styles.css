@@ -13,7 +13,7 @@ body {
 .intro,
 .about,
 .projects,
-.services__container,
+.container,
 .contacts {
   margin: 0 auto 150px;
   width: 1150px;
@@ -30,7 +30,8 @@ a {
 
 .about h2,
 .projects h2,
-.services h2 {
+.services h2,
+.testimonials h2 {
   margin-bottom: 30px;
   font-size: 18px;
   line-height: 25px;
@@ -212,6 +213,34 @@ a {
 }
 
 /*секция "отзывы наших клиентов"*/
+
+.testimonials__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.testimonial__box {
+  margin-bottom: 50px;
+  width: calc(50% - 24.5px);
+  background-color: aqua;
+  border: 1px solid red;
+}
+
+.last_box {
+  margin-bottom: 0;
+  width: 75%;
+}
+
+.customer__info {
+  margin-bottom: 14px;
+  font-size: 45px;
+  line-height: 61px;
+}
+.customer__said {
+  font-size: 22px;
+  line-height: 30px;
+}
 
 /*секция "интерьеры под ключ"*/
 
