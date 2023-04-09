@@ -10,12 +10,9 @@ body {
   background: #ffffff;
 }
 
-.intro,
-.about,
-.projects,
-.container,
-.contacts {
+.container {
   margin: 0 auto 150px;
+  padding: padding: 0 17px 150px 15px;;
   width: 1150px;
 }
 
