@@ -1,0 +1,27 @@
+/*секция "интерьеры под ключ"*/
+
+/*.turnkeyinterior {
+  margin-bottom: 150px;
+  min-width: 100%;
+  height: 717px;
+  background-image: url(../images/bedroom-interior.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+}
+
+.turnkeyinterior__container {
+  position: relative;
+  margin: 0 auto;
+  width: 1150px;
+}
+.turnkeyinterior p {
+  position: absolute;
+  top: 575px;
+  width: 443px;
+  height: 82px;
+  font-size: 30px;
+  line-height: 41px;
+  color: #ffffff;
+  letter-spacing: -0.03em;
+}

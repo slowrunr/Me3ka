@@ -1,0 +1,74 @@
+/*секция "вступление"*/
+
+.intro h1 {
+  margin-top: 128px; /*эту строчку нужно убрать, когда добавлю панель навигации*/
+  margin-bottom: 30px;
+  width: 956px;
+  font-size: 60px;
+  line-height: 60px;
+}
+
+.intro__image {
+  position: relative;
+  height: 500px;
+  background-image: url(../images/grey-armchair.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.intro p {
+  position: absolute;
+  left: 40px;
+  bottom: 40px;
+  width: 430px;
+  font-size: 20px;
+  line-height: 27px;
+  color: #ffffff;
+}
+
+@media (max-width: 1199px) {
+  .intro h1 {
+    width: 802px;
+    font-size: 50px;
+  }
+
+  .intro__image {
+    background-image: url(../images/grey-armchair-tblt.jpg);
+    height: 400px;
+    width: 100%;
+  }
+
+  .intro p {
+    bottom: 30px;
+    width: 430px;
+  }
+}
+
+@media (max-width: 803px) {
+  .intro h1 {
+    font-size: 45px;
+    line-height: 45px;
+  }
+}
+
+@media (max-width: 767px) {
+  .intro h1 {
+    margin-top: 108px;
+    margin-bottom: 25px;
+    font-size: 30px;
+    line-height: 32px;
+    width: 332px;
+  }
+
+  .intro__image {
+    height: 304px;
+  }
+
+  .intro p {
+    left: 15px;
+    bottom: 15px;
+    width: 310px;
+    font-size: 16px;
+    line-height: 22px;
+  }
+}

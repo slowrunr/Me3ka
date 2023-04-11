@@ -1,0 +1,47 @@
+/*секция "о нас"*/
+
+.about p {
+  margin-bottom: 30px;
+  width: 1048px;
+  font-size: 45px;
+  line-height: 61px;
+}
+
+.about a {
+  width: 255px;
+  display: block;
+  color: #ffffff;
+  background: #ad1818;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 67px;
+  font-size: 20px;
+}
+
+@media (max-width: 1199px) {
+  .about p {
+    margin-bottom: 30px;
+    max-width: 690px;
+    font-size: 35px;
+    line-height: 48px;
+  }
+}
+
+@media (max-width: 767px) {
+  .about p {
+    margin-bottom: 30px;
+    max-width: 345px;
+    font-size: 22px;
+    line-height: 30px;
+  }
+
+  .about a {
+    margin-bottom: 80px;
+    width: 194px;
+    height: 51px;
+    border-radius: 3.8px;
+    text-align: center;
+    line-height: 51px;
+    font-size: 16px;
+  }
+}

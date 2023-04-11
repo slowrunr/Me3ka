@@ -1,0 +1,35 @@
+/*секция "контакты"*/
+
+/*.contacts {
+  margin-bottom: 160px;
+  display: block;
+  font-size: 60px;
+  line-height: 60px;
+}
+
+.contacts h2 {
+  margin-bottom: 32px;
+}
+
+.contacts h2::before {
+  margin-bottom: 13px;
+  content: "";
+  width: 13px;
+  height: 22px;
+  background-image: url("../images/phone-logo.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  display: block;
+}
+
+.phone__number {
+  margin-bottom: 28px;
+  display: block;
+  letter-spacing: -0.013em;
+}
+
+.send__email {
+  opacity: 0.5;
+  border-bottom: 2px solid #121212;
+}*/
