@@ -13,7 +13,6 @@
   height: 500px;
   background-image: url(../images/grey-armchair.jpg);
   background-repeat: no-repeat;
-  background-size: contain;
 }
 
 .intro p {
@@ -35,7 +34,6 @@
   .intro__image {
     background-image: url(../images/grey-armchair-tblt.jpg);
     height: 400px;
-    width: 100%;
   }
 
   .intro p {
@@ -61,6 +59,7 @@
   }
 
   .intro__image {
+    background-image: url(../images/grey-armchair-mbl.jpg);
     height: 304px;
   }
 

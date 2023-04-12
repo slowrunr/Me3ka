@@ -35,22 +35,12 @@ a {
   line-height: 25px;
 }
 
-/*.padded-left {
-  padding-left: 125px;
-  padding-right: 125px;
-}*/
-
 @media (max-width: 1199px) {
   .container {
     margin-bottom: 120px;
-    width: 960px;
-  }
-}
-
-@media (max-width: 960px) {
-  .container {
-    margin-bottom: 120px;
-    width: 768px;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;
   }
 }
 
