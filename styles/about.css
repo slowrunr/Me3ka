@@ -21,7 +21,7 @@
 @media (max-width: 1199px) {
   .about p {
     margin-bottom: 30px;
-    max-width: 690px;
+    width: 690px;
     font-size: 35px;
     line-height: 48px;
   }
@@ -30,7 +30,7 @@
 @media (max-width: 767px) {
   .about p {
     margin-bottom: 30px;
-    max-width: 345px;
+    width: 345px;
     font-size: 22px;
     line-height: 30px;
   }

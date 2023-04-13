@@ -7,14 +7,13 @@ html {
 body {
   font-family: "Manrope", sans-serif;
   font-weight: 400;
-  box-sizing: border-box;
   background: #ffffff;
 }
 
 .container {
   margin: 0 auto;
   width: 1150px;
-  margin-bottom: 150px;
+  padding-bottom: 149px;
 }
 
 h1,
@@ -37,18 +36,14 @@ a {
 
 @media (max-width: 1199px) {
   .container {
-    margin-bottom: 120px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding: 0 15px 120px 17px;
     width: 100%;
   }
 }
 
 @media (max-width: 767px) {
   .container {
-    margin-bottom: 80px;
-    padding-left: 13px;
-    padding-right: 12px;
+    padding: 0 12px 80px 13px;
   }
 
   .about h2,
