@@ -1,10 +1,18 @@
 /*секция "о нас"*/
 
+.description {
+  display: block;
+}
+
 .about p {
   margin-bottom: 30px;
   width: 1048px;
   font-size: 45px;
   line-height: 61px;
+}
+
+br {
+  display: none;
 }
 
 .about a {
@@ -30,7 +38,7 @@
 @media (max-width: 767px) {
   .about p {
     margin-bottom: 30px;
-    width: 345px;
+    width: 100%;
     font-size: 22px;
     line-height: 30px;
   }

@@ -10,6 +10,7 @@
 
 .project__image {
   margin-bottom: 15px;
+  object-fit: cover;
 }
 
 .project p {
@@ -30,7 +31,6 @@
 .all__projects {
   padding-top: 56px;
   padding-bottom: 56px;
-  width: 100%;
   display: block;
   background: #ffffff;
   border: 1px solid #ad1818;
@@ -49,8 +49,8 @@
 }
 
 @media (max-width: 1199px) {
-  .projects {
-    margin-bottom: 103px;
+  .cropped {
+    margin-bottom: 97px;
   }
 
   .project__image {
@@ -64,6 +64,10 @@
     line-height: 34px;
   }
 
+  .project a {
+    padding-left: 0;
+  }
+
   .project {
     margin-bottom: 80px;
   }
@@ -73,12 +77,12 @@
   }
 }
 @media (max-width: 767px) {
-  .projects {
-    margin-bottom: 144px;
+  .cropped {
+    margin-bottom: 80px;
   }
 
   .project__image {
-    margin-bottom: 20px;
+    margin-bottom: 18px;
     height: 250px;
   }
 
@@ -89,6 +93,7 @@
   }
 
   .project a {
+    padding-left: 0;
     display: block;
     font-size: 16px;
     line-height: 22px;
@@ -104,9 +109,10 @@
 
   .all__projects {
     padding: 37px 0;
-    
-    border: 0.76px solid #ad1818;
-    border-radius: 3.8px;
+    height: 100px;
+    width: 101%;
+    border: 0.8px solid #ad1818;
+    border-radius: 4px;
     line-height: 30px;
     font-size: 22px;
   }
