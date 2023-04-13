@@ -7,8 +7,8 @@
 }
 
 .testimonial__box {
-  margin-bottom: 84px !important;
-  width: calc(50% - 24.5px) !important;
+  margin-bottom: 84px;
+  width: calc(50% - 24.5px);
   height: 390px;
 }
 
@@ -18,13 +18,13 @@
 }
 
 .customer__info {
-  margin-bottom: 14px !important;
-  font-size: 45px !important;
-  line-height: 61px !important;
+  margin-bottom: 14px;
+  font-size: 45px;
+  line-height: 61px;
 }
 .customer__said {
-  font-size: 22px !important;
-  line-height: 30px !important;
+  font-size: 22px;
+  line-height: 30px;
 }
 @media (max-width: 1199px) {
   .testimonial__box {
