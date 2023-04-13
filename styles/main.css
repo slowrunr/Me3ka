@@ -13,7 +13,7 @@ body {
 .container {
   margin: 0 auto;
   width: 1150px;
-  padding-bottom: 149px;
+  margin-bottom: 150px;
 }
 
 h1,
@@ -36,14 +36,18 @@ a {
 
 @media (max-width: 1199px) {
   .container {
-    padding: 0 15px 120px 17px;
+    margin-bottom: 120px;
+    padding-left: 17px;
+    padding-right: 15px;
     width: 100%;
   }
 }
 
 @media (max-width: 767px) {
   .container {
-    padding: 0 12px 80px 13px;
+    margin-bottom: 80px;
+    padding-left: 17px;
+    padding-right: 15px;
   }
 
   .about h2,

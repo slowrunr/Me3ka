@@ -11,7 +11,6 @@
 
 .services h2 {
   padding-left: 2px;
-  margin-bottom: 30px;
   color: #ffffff;
 }
 
@@ -27,11 +26,12 @@
 }
 
 .last_item {
-  margin-bottom: 99px;
+  margin-bottom: 104px;
 }
 
 .service__image {
   margin-bottom: 25px;
+  height: 388px;
   width: 100%;
 }
 
@@ -58,15 +58,14 @@
   left: 30px;
   background: #ad1818;
   border-radius: 5px;
-  font-size: 22px !important;
-  line-height: 40px !important;
+  font-size: 22px;
+  line-height: 40px;
   text-align: center;
 }
 
 .orderService {
   padding: 56px 0;
   display: block;
-  width: 100%;
   background: #ad1818;
   border-radius: 5px;
   text-decoration: none;
@@ -79,32 +78,31 @@
 
 @media (max-width: 1199px) {
   .padded {
-    padding-bottom: 120px;
+    margin-top: -21px;
+    padding-bottom: 117px;
   }
 
   .services h2 {
     padding-left: 4px;
   }
 
-  .services__wrapper {
-    margin-bottom: 7px;
-    row-gap: 4px;
-  }
-
-  .service__item {
+  .service__item,
+  .last_item {
     margin-bottom: 80px;
-    max-width: 460px;
+    width: calc(50% - 5px);
   }
 
   .service__image {
-    margin-bottom: 15px;
-    max-width: 460px;
+    margin-bottom: 11px;
     height: 315px;
-    object-fit: cover;
+  }
+
+  .last_image {
+    margin-bottom: 13px;
   }
 
   .services p {
-    padding-left: 1.8px;
+    padding-left: 1px;
     color: #ffffff;
     font-size: 25px;
     line-height: 34px;
@@ -112,23 +110,12 @@
 
   .service__image_box p {
     padding: 0 27px;
-    left: 32px;
-    top: 31px;
-    font-size: 20px !important;
-    line-height: 40px !important;
-  }
-
-  .orderService {
-    max-width: 928px;
+    font-size: 20px;
+    line-height: 40px;
   }
 }
-@media (max-width: 767px) {
-  .services {
-    width: 100%;
-    max-width: 386px;
-    background-color: #121212;
-  }
 
+@media (max-width: 767px) {
   .padded {
     padding-top: 80px;
     padding-bottom: 80px;
@@ -141,22 +128,14 @@
     line-height: 19px;
   }
 
-  .services__wrapper {
-    margin-bottom: 0;
-    display: block;
-    row-gap: 0;
-    column-gap: 0;
-  }
-
   .service__item {
     margin-bottom: 60px;
+    width: 100%;
   }
 
   .service__image {
     margin-bottom: 10px;
-    width: 100%;
-    max-height: 240px;
-    object-fit: cover;
+    height: 240px;
   }
 
   .services p {
@@ -170,12 +149,11 @@
     padding: 0 24px;
     left: 24px;
     top: 23px;
-    font-size: 14px !important;
+    font-size: 14px;
   }
 
   .orderService {
     padding: 37px 0;
-    max-width: 928px;
     font-size: 22px;
     line-height: 30px;
   }
