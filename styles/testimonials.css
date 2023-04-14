@@ -3,12 +3,12 @@
 .testimonials__wrapper {
   display: flex;
   flex-wrap: wrap;
-  column-gap: 29px;
+  column-gap: 44px;
   row-gap: 80px;
 }
 
 .testimonial__box {
-  width: calc(50% - 25px);
+  width: calc(49% - 32px);
 }
 
 .testimonial__box:last-child:nth-child(2n + 1) {
@@ -16,6 +16,7 @@
 }
 
 .customer__info {
+  margin-left: -2px;
   margin-bottom: 14px;
   font-size: 45px;
   line-height: 61px;
@@ -33,10 +34,15 @@ br {
 @media (max-width: 1199px) {
   .testimonials__wrapper {
     column-gap: 10px;
+    row-gap: 78px;
   }
 
   .testimonial__box {
     width: calc(50% - 5px);
+  }
+
+  .testimonials h2 {
+    margin-bottom: 34px;
   }
 
   .customer__info {
@@ -48,6 +54,10 @@ br {
   .customer__said {
     font-size: 20px;
     line-height: 27px;
+  }
+
+  .down {
+    margin-bottom: 29px;
   }
 }
 @media (max-width: 600px) {

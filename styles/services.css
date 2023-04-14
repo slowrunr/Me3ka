@@ -63,7 +63,7 @@
   text-align: center;
 }
 
-.orderService {
+.order__service {
   padding: 56px 0;
   display: block;
   background: #ad1818;
@@ -74,6 +74,11 @@
   font-size: 30px;
   cursor: pointer;
   color: #ffffff;
+}
+
+.order__service:hover {
+  background-color: #ffffff;
+  color: #ad1818;
 }
 
 @media (max-width: 1199px) {
@@ -157,7 +162,7 @@
     height: 30px;
   }
 
-  .orderService {
+  .order__service {
     padding: 36px 0;
     font-size: 22px;
     line-height: 30px;

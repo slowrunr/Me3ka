@@ -30,7 +30,6 @@
 @media (max-width: 1199px) {
   .intro h1 {
     font-size: 50px;
-    width: 780px;
   }
 
   .intro__image {
@@ -60,6 +59,10 @@
     font-size: 30px;
     line-height: 32px;
     width: 332px;
+  }
+
+  h1 br {
+    display: none;
   }
 
   .intro__image {
