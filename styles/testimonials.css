@@ -63,11 +63,15 @@ br {
 @media (max-width: 600px) {
   .testimonials__wrapper {
     flex-direction: column;
-    row-gap: 76px;
+    row-gap: 80px;
   }
 
   .testimonial__box {
     width: 100%;
+  }
+
+  .testimonials h2 {
+    margin-bottom: 20px;
   }
 
   .testimonial__box:last-child:nth-child(2n + 1) {
@@ -84,5 +88,9 @@ br {
   .customer__said {
     font-size: 16px;
     line-height: 22px;
+  }
+
+  .down {
+    margin-top: -5px;
   }
 }
