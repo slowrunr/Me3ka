@@ -14,13 +14,13 @@
 }
 
 .project p {
-  margin-bottom: 12px;
+  margin-bottom: 13px;
   font-size: 30px;
   line-height: 41px;
 }
 
 .project a {
-  padding-left: 1px;
+  margin-left: 1px;
   display: block;
   font-size: 20px;
   line-height: 27px;
@@ -66,7 +66,7 @@
   }
 
   .project a {
-    padding-left: 0;
+    margin-left: 0;
   }
 
   .project {
@@ -94,7 +94,6 @@
   }
 
   .project a {
-    padding-left: 0;
     display: block;
     font-size: 16px;
     line-height: 22px;
