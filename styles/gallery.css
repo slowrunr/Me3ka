@@ -20,26 +20,31 @@
 }
 
 .gallery__slides {
-  position: relative; 
+  position: relative;
   width: 100%;
   height: 100%;
 }
 .gallery__slide {
   position: absolute;
-  top: 0; 
-  left: 0; 
-  height: 100%; 
-  width: 100%; 
-  opacity: 0; 
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
   object-fit: cover;
 }
 
 .gallery__slide_active {
-  opacity: 1; 
+  opacity: 1;
 }
 
 .gallery__box {
   height: 100%;
+}
+
+.gallery__item {
+  width: 100%;
+  object-fit: cover;
 }
 
 .gallery__controls-wrapper {
@@ -57,44 +62,88 @@
 .gallery__control-next {
   width: 40px;
   height: 40px;
-  background:none ;
+  background: none;
   border: none;
 }
 
+.gallery__control-next:hover {
+  opacity: 50%;
+}
 
+.gallery__control-prev:hover {
+  opacity: 50%;
+}
 
 .slide__description {
   position: absolute;
   bottom: 65px;
-  left: 60px;
-  color: #FFFFFF;
-  font-size: 30px;
-  line-height: 41px;
-}
- 
-
-/*.turnkeyinterior {
-  margin-bottom: 150px;
-  width: 100%;
-  height: 717px;
-  background-image: url(../images/bedroom-interior.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 50%;
-}
-
-.turnkeyinterior__container {
-  position: relative;
-  margin: 0 auto;
-  width: 1150px;
-}
-.turnkeyinterior p {
-  position: absolute;
-  top: 575px;
-  width: 443px;
-  height: 82px;
-  font-size: 30px;
-  line-height: 41px;
   color: #ffffff;
-  letter-spacing: -0.03em;
+  font-size: 30px;
+  line-height: 41px;
+}
+
+@media (max-width: 1199px) {
+  .gallery__wrapper {
+    height: 536px;
+  }
+
+  .gallery__title-wrapper {
+    top: 80px;
+  }
+  .gallery__title {
+    font-size: 20px;
+    line-height: 27px;
+  }
+
+  .gallery__controls-wrapper {
+    bottom: 155px;
+  }
+  .gallery__controls {
+    gap: 14px;
+  }
+
+  .slide__description {
+    bottom: 80px;
+    left: 60px;
+    font-size: 25px;
+    line-height: 34px;
+  }
+}
+
+@media (max-width: 767px) {
+  .gallery__wrapper {
+    height: 408px;
+  }
+
+  .gallery__title-wrapper {
+    top: 61px;
+  }
+
+  .gallery__title {
+    font-size: 14px;
+    line-height: 19px;
+  }
+
+  .gallery__controls-wrapper {
+    bottom: 60px;
+  }
+
+  .gallery__controls {
+    display: flex;
+    justify-content: space-between;
+    gap: 0;
+  }
+
+  .gallery__control-prev,
+  .gallery__control-next {
+    width: 30px;
+    height: 30px;
+  }
+
+  .slide__description {
+    bottom: 60px;
+    left: 60px;
+    font-size: 19px;
+    line-height: 26px;
+  }
 }
