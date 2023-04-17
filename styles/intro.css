@@ -30,6 +30,7 @@
 @media (max-width: 1199px) {
   .intro h1 {
     font-size: 50px;
+    width: 100%;
   }
 
   .intro__image {
