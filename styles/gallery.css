@@ -1,15 +1,18 @@
 /*секция "галерея готовых проектов"*/
+.container {
+  margin-bottom: 0;
+}
 
 .gallery__wrapper {
   position: relative;
-  width: 100%;
-  height: 717px;
 }
 
 .gallery__title-wrapper {
   position: absolute;
+  display: flex;
   width: 100%;
-  top: 60px;
+  top: 64px;
+  left: 10px;
   z-index: 100;
 }
 
@@ -21,9 +24,9 @@
 
 .gallery__slides {
   position: relative;
-  width: 100%;
-  height: 100%;
+  height: 717px;
 }
+
 .gallery__slide {
   position: absolute;
   top: 0;
@@ -31,39 +34,36 @@
   height: 100%;
   width: 100%;
   opacity: 0;
-  object-fit: cover;
 }
 
 .gallery__slide_active {
   opacity: 1;
 }
 
-.gallery__box {
-  height: 100%;
-}
-
 .gallery__item {
   width: 100%;
+  height: 717px;
   object-fit: cover;
 }
 
 .gallery__controls-wrapper {
   position: absolute;
   bottom: 165px;
+  display: flex;
   width: 100%;
   height: 40px;
 }
+
 .gallery__controls {
-  display: flex;
   gap: 14px;
 }
 
 .gallery__control-prev,
 .gallery__control-next {
   width: 40px;
-  height: 40px;
   background: none;
   border: none;
+  cursor: pointer;
 }
 
 .gallery__control-next:hover {
@@ -74,21 +74,32 @@
   opacity: 50%;
 }
 
-.slide__description {
+.description__wrapper {
   position: absolute;
-  bottom: 65px;
-  color: #ffffff;
+  display: flex;
+  width: 100%;
+  bottom: 63px;
+  left: 10px;
+}
+
+.slide__description {
   font-size: 30px;
   line-height: 41px;
+  color: #ffffff;
 }
 
 @media (max-width: 1199px) {
+  /*.container {
+    display: flex;
+  }*/
+
   .gallery__wrapper {
     height: 536px;
   }
 
   .gallery__title-wrapper {
     top: 80px;
+    left: 50px;
   }
   .gallery__title {
     font-size: 20px;
@@ -97,14 +108,16 @@
 
   .gallery__controls-wrapper {
     bottom: 155px;
+    left: 50px;
   }
   .gallery__controls {
     gap: 14px;
   }
-
-  .slide__description {
+  .description__wrapper {
     bottom: 80px;
-    left: 60px;
+    left: 50px;
+  }
+  .slide__description {
     font-size: 25px;
     line-height: 34px;
   }
@@ -125,11 +138,10 @@
   }
 
   .gallery__controls-wrapper {
-    bottom: 60px;
+    bottom: 191.5px;
   }
 
   .gallery__controls {
-    display: flex;
     justify-content: space-between;
     gap: 0;
   }
@@ -140,9 +152,11 @@
     height: 30px;
   }
 
-  .slide__description {
+  .description__wrapper {
     bottom: 60px;
-    left: 60px;
+  }
+
+  .slide__description {
     font-size: 19px;
     line-height: 26px;
   }
