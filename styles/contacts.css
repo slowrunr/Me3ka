@@ -1,8 +1,8 @@
 /*секция "контакты"*/
 
 .contacts h2 {
-  margin-top: 150px;
-  margin-bottom: 74px;
+  margin-top: 146px;
+  margin-bottom: 75px;
 }
 
 .contacts__wrapper {
@@ -27,8 +27,8 @@
   content: "";
   position: absolute;
   top: -50px;
-  width: 24px;
-  height: 24px;
+  width: 13px;
+  height: 22px;
   background-image: url("../images/phone-logo.png");
   background-size: contain;
   background-repeat: no-repeat;
@@ -47,8 +47,8 @@
   content: "";
   position: absolute;
   top: -37px;
-  width: 24px;
-  height: 24px;
+  width: 20px;
+  height: 16px;
   background-image: url("../images/mail-logo.png");
   background-size: contain;
   background-repeat: no-repeat;
