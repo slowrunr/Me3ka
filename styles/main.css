@@ -13,7 +13,7 @@ body {
 .container {
   margin: 0 auto;
   width: 1150px;
-  margin-bottom: 150px;
+  margin-bottom: 149px;
 }
 
 h1,
@@ -28,7 +28,8 @@ a {
 .about h2,
 .projects h2,
 .services h2,
-.testimonials h2 {
+.testimonials h2,
+.contacts h2 {
   margin-bottom: 30px;
   font-size: 18px;
   line-height: 25px;
