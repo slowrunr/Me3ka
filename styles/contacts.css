@@ -53,3 +53,71 @@
   background-size: contain;
   background-repeat: no-repeat;
 }
+
+@media (max-width: 1199px) {
+  .contacts h2 {
+    margin-top: 120px;
+    margin-bottom: 74px;
+  }
+
+  .contacts__wrapper {
+    gap: 114px;
+  }
+
+  .contacts__box {
+    margin-bottom: 80px;
+    font-size: 45px;
+    line-height: 60px;
+  }
+
+  .send__email {
+    margin-top: -13px;
+    padding-bottom: 0;
+  }
+
+  .send__email:before {
+    top: -32px;
+}
+@media (max-width: 767px) {
+  .contacts h2 {
+    margin-top: 80px;
+    margin-bottom: 58px;
+  }
+
+  .contacts__wrapper {
+    flex-wrap: wrap;
+    gap: 0;
+    column-gap: 58px;
+  }
+
+  .contacts__box {
+    margin-bottom: 58px;
+    font-size: 35px;
+    line-height: 46px;
+  }
+  .contacts__box:last-child {
+    margin-bottom: 80px;
+  }
+
+  .phone__number:before {
+    top: -40px;
+    width: 10px;
+    height: 17px;
+  }
+
+  .send__email {
+    margin-top: 0;
+    margin-left: -1px;
+    padding-bottom: 0;
+    position: relative;
+    display: block;
+    color: rgba(18, 18, 18, 0.5);
+    border-bottom: 2px solid;
+  }
+
+  .send__email:before {
+    top: -36px;
+    width: 15px;
+    height: 12px;
+  }
+}

@@ -32,6 +32,9 @@
 }
 
 @media (max-width: 767px) {
+  .description {
+    width: 65%;
+  }
   .about p {
     margin-bottom: 30px;
     width: 100%;
