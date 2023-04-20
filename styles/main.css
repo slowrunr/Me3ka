@@ -54,7 +54,8 @@ a {
   .about h2,
   .projects h2,
   .services h2,
-  .testimonials h2 {
+  .testimonials h2,
+  .contacts h2 {
     margin-bottom: 20px;
     font-size: 14px;
     line-height: 19px;
