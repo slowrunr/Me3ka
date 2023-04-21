@@ -1,14 +1,14 @@
 /*секция "контакты"*/
 
 .contacts h2 {
-  margin-top: 146px;
+  margin-top: 150px;
   margin-bottom: 75px;
 }
 
 .contacts__wrapper {
   display: flex;
   flex-wrap: nowrap;
-  gap: 104px;
+  gap: 102px;
 }
 
 .contacts__box {

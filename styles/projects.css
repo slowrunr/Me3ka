@@ -41,6 +41,7 @@
   font-size: 30px;
   cursor: pointer;
   color: #ad1818;
+  width: 100%;
 }
 
 .all__projects:hover {
@@ -49,14 +50,14 @@
 }
 
 @media (max-width: 1199px) {
-  .cropped {
-    margin-bottom: 97px;
+  .projects {
+    margin-bottom: 100px;
   }
 
   .project__image {
     margin-bottom: 13px;
     height: 450px;
-    width: 100%;
+    /*width: 100%;*/
   }
 
   .project p {
@@ -66,7 +67,7 @@
   }
 
   .project a {
-    margin-left: 0;
+    margin-left: 1px;
   }
 
   .project {
@@ -74,14 +75,14 @@
   }
 
   .project:last-of-type {
-    margin-bottom: 102px;
+    margin-bottom: 100px;
+  }
+
+  .all__projects {
+    padding-left: 17px;
   }
 }
 @media (max-width: 767px) {
-  .cropped {
-    margin-bottom: 80px;
-  }
-
   .project__image {
     margin-bottom: 18px;
     height: 250px;
