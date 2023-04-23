@@ -1,18 +1,19 @@
 /*секция "отзывы наших клиентов"*/
 
-.testimonials__wrapper {
+.testimonials__list {
+  padding-right: 41px;
   display: flex;
   flex-wrap: wrap;
-  column-gap: 44px;
-  row-gap: 80px;
+  justify-content: space-between;
+  row-gap: 83px;
 }
 
 .testimonial__box {
-  width: calc(49% - 32px);
+  width: calc(50% - 26px);
 }
 
 .testimonial__box:last-child:nth-child(2n + 1) {
-  width: 75%;
+  width: 78%;
 }
 
 .customer__info {
@@ -27,29 +28,27 @@
   line-height: 30px;
 }
 
-br {
-  display: block;
-}
-
 @media (max-width: 1199px) {
-  .testimonials__wrapper {
-    column-gap: 12px;
-    row-gap: 44px;
+  .testimonials__list {
+    padding-right: 0;
+    row-gap: 53px;
   }
 
   .testimonial__box {
-    width: calc(48% - 94px);
+    width: calc(50% - 16px);
   }
 
   .testimonials h2 {
-    margin-bottom: 25px;
+    margin-bottom: 30px;
   }
 
   .customer__info {
     margin-bottom: 25px;
-    padding-top: 7px;
+    display: flex;
+    width: 100%;
+    flex-wrap: nowrap;
     font-size: 35px;
-    line-height: 48px;
+    line-height: 47.81px;
   }
 
   .customer__said {
@@ -58,11 +57,13 @@ br {
   }
 
   .down {
+    padding-top: 2px;
     margin-bottom: 29px;
+    margin-left: 0;
   }
 
   .testimonial__box:last-child:nth-child(2n + 1) {
-    width: 60%;
+    width: 75%;
   }
 }
 @media (max-width: 600px) {
