@@ -1,12 +1,9 @@
 /*секция "услуги"*/
 
 .services {
-  background-color: #121212;
-}
-
-.padded {
   padding-top: 151px;
   padding-bottom: 150px;
+  background-color: #121212;
 }
 
 .services h2 {
@@ -14,7 +11,7 @@
   color: #ffffff;
 }
 
-.services__wrapper {
+.services__list {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -25,7 +22,7 @@
   width: calc(50% - 5.5px);
 }
 
-.last_item {
+.service__item:nth-last-child(-n + 2) {
   margin-bottom: 104px;
 }
 
@@ -35,7 +32,7 @@
   width: 100%;
 }
 
-.last_image {
+.service__image:nth-last-child(-n + 2) {
   margin-bottom: 21px;
 }
 
@@ -82,7 +79,7 @@
 }
 
 @media (max-width: 1199px) {
-  .padded {
+  .services {
     padding-bottom: 121px;
   }
 
@@ -91,7 +88,7 @@
   }
 
   .service__item,
-  .last_item {
+  .service__item:nth-last-child(-n + 2) {
     margin-bottom: 80px;
     width: calc(50% - 5px);
   }
@@ -101,7 +98,7 @@
     height: 315px;
   }
 
-  .last_image {
+  .service__image:nth-last-child(-n + 2) {
     margin-bottom: 13px;
   }
 
@@ -120,7 +117,7 @@
 }
 
 @media (max-width: 600px) {
-  .padded {
+  .services {
     padding-top: 80px;
     padding-bottom: 79px;
   }
@@ -132,11 +129,12 @@
     line-height: 19px;
   }
 
-  .services__wrapper {
+  .services__list {
     flex-direction: column;
   }
 
-  .service__item {
+  .service__item,
+  .service__item:nth-last-child(-n + 2) {
     margin-bottom: 60px;
     width: 100%;
   }

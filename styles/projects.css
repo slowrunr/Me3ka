@@ -1,7 +1,12 @@
 /*секция "проекты"*/
 
 .projects h2 {
-  padding-left: 0.2px;
+  margin-left: 0.2px;
+}
+
+.projects__list {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .project {
@@ -10,7 +15,7 @@
 
 .project__image {
   margin-bottom: 15px;
-  object-fit: cover;
+  width: 100%;
 }
 
 .project p {
@@ -57,7 +62,6 @@
   .project__image {
     margin-bottom: 13px;
     height: 450px;
-    /*width: 100%;*/
   }
 
   .project p {
@@ -76,10 +80,6 @@
 
   .project:last-of-type {
     margin-bottom: 100px;
-  }
-
-  .all__projects {
-    padding-left: 17px;
   }
 }
 @media (max-width: 767px) {
