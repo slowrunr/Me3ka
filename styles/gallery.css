@@ -42,6 +42,7 @@
 .gallery__item {
   width: 100%;
   height: 717px;
+  object-fit: cover;
 }
 
 .gallery__controls-wrapper {
@@ -99,7 +100,6 @@
 
   .gallery__item {
     height: 535px;
-    object-fit: cover;
     object-position: 50% 50%;
   }
 
