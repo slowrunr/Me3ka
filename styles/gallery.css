@@ -1,6 +1,7 @@
 /*секция "галерея готовых проектов"*/
-.nopad {
-  margin-bottom: 0;
+.gallery {
+  width: 100%;
+  display: block;
 }
 
 .gallery__wrapper {
@@ -9,9 +10,8 @@
 
 .gallery__title-wrapper {
   position: absolute;
-  display: flex;
   width: 100%;
-  top: 67px;
+  top: 60px;
   z-index: 100;
 }
 
@@ -42,18 +42,17 @@
 .gallery__item {
   width: 100%;
   height: 717px;
-  object-fit: cover;
 }
 
 .gallery__controls-wrapper {
   position: absolute;
   bottom: 158px;
-  left: -10px;
   width: 100%;
   height: 40px;
 }
 
 .gallery__controls {
+  width: 100%;
   display: flex;
   gap: 14px;
 }
@@ -82,15 +81,16 @@
 }
 
 .slide__description {
+  max-width: 350px;
   font-size: 30px;
   line-height: 41px;
   color: #ffffff;
 }
 
 @media (max-width: 1199px) {
-  /*.container {
-    display: flex;
-  }*/
+  container {
+    width: 100%;
+  }
 
   .gallery__wrapper {
     height: 536px;
@@ -112,7 +112,6 @@
 
   .gallery__controls-wrapper {
     bottom: 330px;
-    left: 26px;
   }
   .gallery__controls {
     gap: 14px;
@@ -149,7 +148,6 @@
 
   .gallery__controls-wrapper {
     bottom: 68.5%;
-    left: -7px;
   }
 
   .gallery__controls {
