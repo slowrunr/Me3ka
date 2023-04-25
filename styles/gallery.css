@@ -158,10 +158,11 @@
   .gallery__controls-wrapper {
     bottom: 68%;
     left: -7px;
+    width: 100%;
   }
 
   .gallery__controls {
-    gap: 317px;
+    justify-content: space-between;
   }
 
   .gallery__control-prev,
