@@ -41,7 +41,7 @@
       </nav>
     </header>-->
     <main>
-     <!--<section class="intro">
+     <section class="intro">
         <div class="container">
           <h1>
             Современные и стильные<br />
@@ -279,7 +279,7 @@
             </li>
           </ul>
         </div>
-      </section>-->
+      </section>
      <section class="gallery">
         <div class="gallery__wrapper">
           <div class="gallery__title-wrapper">
@@ -293,7 +293,7 @@
                 <img class="gallery__item" src="images/bedroom-interior.jpg" alt="Проект Двухкомнтаной квартиры в ЖК Лесной Пейзаж. В центре двухспальная кровать коричневого цвета с белыми подушками.">
                 <div class="description__wrapper">
                   <div class="container">
-                    <p class="slide__description">Проект  Двухкомнатной<br> квартиры в ЖК Лесной Пейзаж</p>
+                    <p class="slide__description">Проект  Двухкомнатной <br> квартиры в ЖК Лесной Пейзаж</p>
                   </div>
                 </div>
               </div>
@@ -332,17 +332,29 @@
             <div class="container">
               <div class="gallery__controls">
                 <button class="gallery__control-prev">
-                  <img src="images/left-arrow-vector.png" alt="Векторная стрелка влево белого цвета">
+                  <picture>
+                    <source
+                      media="(max-width: 500px)"
+                      srcset="images/left-arrow-mob.png"
+                    />
+                    <img src="images/left-arrow-vector.png" alt="Векторная стрелка влево белого цвета">
+                  </picture> 
                 </button>
                 <button class="gallery__control-next">
-                  <img src="images/right-arrow-vector.png" alt="Векторная стрелка вправо белого цвета">
+                  <picture>
+                    <source
+                      media="(max-width: 500px)"
+                      srcset="images/right-arrow-mob.png"
+                    />
+                    <img src="images/right-arrow-vector.png" alt="Векторная стрелка вправо белого цвета">
+                  </picture>
                 </button>
               </div>
             </div>
           </div>
         </div>
       </section>
-      <!--<section class="contacts">
+      <section class="contacts">
         <div class="container">
           <h2 id="контакты">КОНТАКТЫ</h2>
           <div class="contacts__wrapper">
@@ -350,7 +362,7 @@
               <a href="tel:+79358954535" class="phone__number">+7 935 895-45-35</a>
             </div>
             <div class="contacts__box">
-              <a href="mailto:mungaslov.nft@gmail.com" class="send__email">hello@mail.com</a>
+              <a href="https://t.me/s_mungalov" class="telegram__link">s_mungalov</a>
             </div>
             </div>
           </div> 
@@ -377,7 +389,7 @@
           <p class="copyright">студия дизайна интерьера Метрика — 2023</p>
         </div>
       </div>
-    </footer>-->
+    </footer>
     <script src="gallery.js"></script>
   </body>
 </html>
