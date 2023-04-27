@@ -23,17 +23,22 @@
 }
 
 .popup__content {
+  position: relative;
   width: 777px;
   height: 708px;
   max-height: 100%;
   overflow-y: auto;
   background-color: #ffffff;
-
   padding: 60px 15px;
   border-radius: 10px;
 }
 
+.popup__box {
+  padding: 32px 74px 86px 59px;
+}
+
 .popup__content p {
+  padding-left: 7px;
   text-align: center;
   color: #000000;
   letter-spacing: -0.03em;
@@ -41,56 +46,75 @@
 
 .popup__title {
   margin-bottom: 4px;
-  font-size: 45px;
-  line-height: 61px;
+  font-size: 45px !important;
+  line-height: 61px !important;
 }
 
 .popup__instruction {
-  margin-bottom: 40px;
-  font-size: 18px;
-  line-height: 25px;
+  margin-bottom: 60px;
+  font-size: 18px !important;
+  line-height: 25px !important;
 }
 
 .popup__close-btn {
-  margin-top: 1px;
-  margin-right: 12px;
-  width: 40px;
-  height: 40px;
+  position: absolute;
+  top: 42px;
+  right: 44px;
+  width: 30px;
+  height: 30px;
   cursor: pointer;
 }
 
 @media (max-width: 1199px) {
-  .container {
-    width: 100%;
-    padding-left: 50px;
-    padding-right: 50px;
+  .popup__box {
+    padding: 32px 63px 86px 59px;
+  }
+  .popup__content p {
+    padding-left: 20px;
+  }
+  .popup__close-btn {
+    top: 42px;
+    right: 54px;
   }
 }
 
 @media (max-width: 767px) {
-  .popup__text {
-    font-size: 25px;
-    line-height: 34px;
+  .popup__content {
+    position: relative;
+    width: 361px;
+    height: 611px;
+  }
+
+  .popup__box {
+    padding: 20px 63px 86px 59px;
+  }
+  .popup__content p {
+    padding-left: 4px;
+  }
+
+  .popup__title {
+    margin-bottom: 11px;
+    font-size: 25px !important;
+    line-height: 34px !important;
+  }
+
+  .popup__instruction {
+    margin-bottom: 60px;
+    font-size: 14px !important;
+    line-height: 19px !important;
   }
 
   .popup__close-btn {
-    right: 20px;
-    display: block;
-    width: 40px;
-    height: 30px;
-    background-size: cover;
-  }
-  .popup-subtitle {
-    font-size: 14px;
-    line-height: 19px;
+    top: 46px;
+    right: 35px;
+    width: 18px;
+    height: 18px;
   }
 }
 
 /*
 
-.popup-container{
-    padding: 60px;
-}
+
 
 .send-btn{
     display: flex;
