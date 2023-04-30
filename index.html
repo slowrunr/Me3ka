@@ -15,31 +15,34 @@
     <link rel="stylesheet" href="styles/index.css" />
   </head>
   <body>
-    <!--<header>
-      <nav>
-        <a class="logo__link" href="https://slowrunr.github.io/Me3ka/">
-          <img
-            class="logo"
-            src="images/metrika-logo.png"
-            alt="Стилизованное слово 'Метрика' черным цветом на белом фоне"
-          />
-        </a>
-        <ul class="nav__links">
-          <li class="nav__link">
-            <a href="#about">О НАС</a>
-          </li>
-          <li class="nav__link">
-            <a href="#projects">ПРОЕКТЫ</a>
-          </li>
-          <li class="nav__link">
-            <a href="#services">УСЛУГИ</a>
-          </li>
-          <li li class="nav__link">
-            <a href="#contacts">КОНТАКТЫ</a>
-          </li>
-        </ul>
-      </nav>
-    </header>-->
+    <header>
+      <div class="container">
+        <div class="header-wrapper">
+          <a class="logo__link" href="https://slowrunr.github.io/Me3ka/">
+            <img
+              class="logo"
+              src="images/metrika-logo.png"
+              alt="Стилизованное слово 'Метрика' черным цветом на белом фоне"
+            />
+          </a>
+          <ul class="nav__links">
+            <li class="nav__link">
+              <a href="#about">О НАС</a>
+            </li>
+            <li class="nav__link">
+              <a href="#projects">ПРОЕКТЫ</a>
+            </li>
+            <li class="nav__link">
+              <a href="#services">УСЛУГИ</a>
+            </li>
+            <li li class="nav__link">
+              <a href="#contacts">КОНТАКТЫ</a>
+            </li>
+          </ul>
+          <div class="js-burger-btn burger-btn"></div>
+        </div>
+      </div>
+    </header>
     <main>
       <section class="intro">
         <div class="container">
@@ -424,7 +427,33 @@
         </div>
       </div>
     </footer>
+    <script src="burger.js"></script>
     <script src="popup.js"></script>
     <script src="gallery.js"></script>
+    <div class="js-burger burger">
+      <div class="js-burger__content burger__content">
+        <a class="logo__link" href="https://slowrunr.github.io/Me3ka/">
+          <img
+            class="logo"
+            src="images/metrika-logo.png"
+            alt="Стилизованное слово 'Метрика' черным цветом на белом фоне"
+          />
+        </a>
+        <ul class="burger__links">
+          <li class="burger__link">
+            <a href="#about">О НАС</a>
+          </li>
+          <li class="burger__link">
+            <a href="#projects">ПРОЕКТЫ</a>
+          </li>
+          <li class="burger__link">
+            <a href="#services">УСЛУГИ</a>
+          </li>
+          <li li class="burger__link">
+            <a href="#contacts">КОНТАКТЫ</a>
+          </li>
+        </ul>
+      </div>
+    </div>
   </body>
 </html>
