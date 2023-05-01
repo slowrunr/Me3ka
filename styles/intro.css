@@ -15,6 +15,7 @@
   background-repeat: no-repeat;
   height: 500px;
   width: 1150px;
+  z-index: -1;
 }
 
 .intro p {

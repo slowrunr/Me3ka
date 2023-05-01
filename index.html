@@ -18,12 +18,17 @@
     <header>
       <div class="container">
         <div class="header-wrapper">
-          <a class="logo__link" href="https://slowrunr.github.io/Me3ka/">
-            <img
-              class="logo"
+          <a href="https://slowrunr.github.io/Me3ka/">
+            <picture >
+              <source
+                media="(max-width: 500px)"
+                srcset="images/metrika-logo-mbl.png"
+              />
+              <img class="logo__link"
               src="images/metrika-logo.png"
               alt="Стилизованное слово 'Метрика' черным цветом на белом фоне"
-            />
+              />
+            </picture>
           </a>
           <ul class="nav__links">
             <li class="nav__link">
@@ -40,6 +45,39 @@
             </li>
           </ul>
           <div class="js-burger-btn burger-btn"></div>
+        </div>
+      </div>
+      <div class="js-burger burger">
+        <div class="burger__content">
+          <a href="https://slowrunr.github.io/Me3ka/">
+            <img class="burger__logo" 
+              src="images/metrika-logo-mbl.png"
+              alt="Стилизованное слово 'Метрика' черным цветом на белом фоне"
+            />
+          </a>
+          <ul class="burger-nav">
+            <li class="burger-nav__link">
+              <a href="#about">О НАС</a>
+            </li>
+            <li class="burger-nav__link">
+              <a href="#projects">ПРОЕКТЫ</a>
+            </li>
+            <li class="burger-nav__link">
+              <a href="#services">УСЛУГИ</a>
+            </li>
+            <li li class="burger-nav__link">
+              <a href="#contacts">КОНТАКТЫ</a>
+            </li>
+          </ul>
+          <p class="burger__contacts">для связи:</p>
+          <ul class="js-burger__content burger__contacts-list">
+            <li class="burger__contacts-link">
+              <a href="tel:+79358954535">+7 935 895-45-35</a>
+            </li>
+            <li class="burger__contacts-link">
+              <a target="_blank" href="https://t.me/s_mungalov">s_mungalov</a>
+            </li>
+          </ul>
         </div>
       </div>
     </header>
@@ -396,10 +434,12 @@
           <h2 id="контакты">КОНТАКТЫ</h2>
           <div class="contacts__wrapper">
             <div class="contacts__box">
-              <a href="tel:+79358954535" class="phone__number">+7 935 895-45-35</a>
+              <a class="phone__number" href="tel:+79358954535">+7 935 895-45-35</a>
             </div>
             <div class="contacts__box">
-              <a href="https://t.me/s_mungalov" class="telegram__link">s_mungalov</a>
+              <a class="telegram__link"
+               target="_blank"
+               href="https://t.me/s_mungalov">s_mungalov</a>
             </div>
             </div>
           </div> 
@@ -430,30 +470,5 @@
     <script src="burger.js"></script>
     <script src="popup.js"></script>
     <script src="gallery.js"></script>
-    <div class="js-burger burger">
-      <div class="js-burger__content burger__content">
-        <a class="logo__link" href="https://slowrunr.github.io/Me3ka/">
-          <img
-            class="logo"
-            src="images/metrika-logo.png"
-            alt="Стилизованное слово 'Метрика' черным цветом на белом фоне"
-          />
-        </a>
-        <ul class="burger__links">
-          <li class="burger__link">
-            <a href="#about">О НАС</a>
-          </li>
-          <li class="burger__link">
-            <a href="#projects">ПРОЕКТЫ</a>
-          </li>
-          <li class="burger__link">
-            <a href="#services">УСЛУГИ</a>
-          </li>
-          <li li class="burger__link">
-            <a href="#contacts">КОНТАКТЫ</a>
-          </li>
-        </ul>
-      </div>
-    </div>
   </body>
 </html>

@@ -1,6 +1,6 @@
 /*импорт файлов стилей всех блоков проекта*/
 @import "../styles/main.css";
-@import "../styles/header.css";
+@import "../styles/header-burger.css";
 @import "../styles/intro.css";
 @import "../styles/about.css";
 @import "../styles/projects.css";
