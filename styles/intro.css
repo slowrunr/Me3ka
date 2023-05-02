@@ -1,7 +1,6 @@
 /*секция "вступление"*/
 
 .intro h1 {
-  margin-top: 128px; /*эту строчку нужно убрать, когда добавлю панель навигации*/
   margin-bottom: 30px;
   font-size: 60px;
   line-height: 60px;

@@ -32,9 +32,7 @@ header {
   font-size: 18px;
 }
 
-.nav__link:hover,
-.burger-nav__link:hover,
-.burger__contacts-link:hover {
+.nav__link:hover {
   opacity: 0.5;
   padding-bottom: 2px;
   border-bottom: 1px solid black;
@@ -161,5 +159,16 @@ header {
   .burger-btn_open::before,
   .burger-btn_open::after {
     display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .burger-btn {
+    width: 38px;
+  }
+
+  .burger-btn::after {
+    top: 5px;
+    width: 24px;
   }
 }
