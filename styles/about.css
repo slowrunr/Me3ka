@@ -1,10 +1,6 @@
 /*секция "о нас"*/
 
 .description {
-  display: block;
-}
-
-.about p {
   margin-bottom: 30px;
   width: 1048px;
   font-size: 45px;
@@ -23,7 +19,7 @@
 }
 
 @media (max-width: 1199px) {
-  .about p {
+  .description {
     margin-bottom: 30px;
     width: 690px;
     font-size: 35px;
@@ -33,9 +29,6 @@
 
 @media (max-width: 767px) {
   .description {
-    width: 65%;
-  }
-  .about p {
     margin-bottom: 30px;
     width: 100%;
     font-size: 22px;
