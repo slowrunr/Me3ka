@@ -39,8 +39,8 @@
   padding-bottom: 7px;
   position: relative;
   display: block;
-  color: rgba(18, 18, 18, 0.5);
-  border-bottom: 2px solid;
+  /*color: rgba(18, 18, 18, 0.5);
+  border-bottom: 2px solid;*/
 }
 
 .telegram__link:before {
@@ -52,6 +52,32 @@
   background-image: url("../images/mail-logo.png");
   background-size: contain;
   background-repeat: no-repeat;
+}
+
+.phone__number:hover,
+.telegram__link:hover {
+  color: rgba(18, 18, 18, 0.5);
+}
+
+/*применил эффект анимированного подчеркивания. 
+взято из https://unclebigbay.com/how-to-create-an-hover-underline-animation-in-css*/
+.phone__number::after,
+.telegram__link::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  bottom: -10px;
+  left: 0;
+  background-color: rgba(18, 18, 18, 0.5);
+  transform-origin: bottom left;
+  transition: transform 0.25s ease-out;
+  transform: scaleX(0);
+}
+
+.phone__number:hover::after,
+.telegram__link:hover::after {
+  transform: scaleX(1);
 }
 
 @media (max-width: 1199px) {
