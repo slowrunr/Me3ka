@@ -18,7 +18,7 @@
 }
 
 .service__item {
-  margin-bottom: 81px;
+  margin-bottom: 78px;
   width: calc(50% - 5.5px);
 }
 
@@ -32,9 +32,9 @@
   width: 100%;
 }
 
-.service__image:nth-last-child(-n + 2) {
-  margin-bottom: 21px;
-}
+/*.service__image:nth-last-child(-n + 2) {
+  margin-bottom: 22px;
+}*/
 
 .service__image_box {
   position: relative;
@@ -63,12 +63,14 @@
 .order__service {
   padding: 56px 0;
   display: block;
+  height: 153px;
   background: #ad1818;
   border-radius: 5px;
   text-decoration: none;
   text-align: center;
   line-height: 41px;
   font-size: 30px;
+  letter-spacing: -0.03em;
   cursor: pointer;
   color: #ffffff;
 }

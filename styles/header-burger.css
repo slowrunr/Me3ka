@@ -3,7 +3,7 @@
 }
 
 header {
-  margin-bottom: 70px;
+  margin-bottom: 96px;
   padding-top: 33px;
   height: 25px;
 }
@@ -29,6 +29,7 @@ header {
 .nav__link {
   display: block;
   line-height: 25px;
+  height: 25px;
   font-size: 18px;
 }
 
@@ -96,11 +97,13 @@ header {
   display: block;
   font-size: 25px;
   line-height: 34px;
+  height: 34px;
 }
 
-.burger-nav__link:hover {
+.burger-nav__link a:hover,
+.burger__contacts-link a:hover {
   opacity: 0.5;
-  box-shadow: inset 0 -0.5px #121212;
+  border-bottom: 1px solid #121212;
 }
 
 .burger__contacts {
@@ -115,6 +118,7 @@ header {
   display: block;
   font-size: 20px;
   line-height: 46px;
+  height: 46px;
 }
 
 @media (max-width: 1199px) {
@@ -150,12 +154,11 @@ header {
 
   .burger-btn_open {
     position: absolute;
-    top: 27px;
     right: 27px;
     width: 20px;
     height: 20px;
-    background-image: url(../images/cross-sign.png);
-    background-size: cover;
+    background-image: url(../images/cross-sign@2x.png);
+    background-size: contain;
     background-repeat: no-repeat;
     z-index: 80;
   }
@@ -169,6 +172,10 @@ header {
 @media (max-width: 767px) {
   .burger-btn {
     width: 38px;
+  }
+
+  .burger-btn_open {
+    width: 20px;
   }
 
   .burger-btn::after {
