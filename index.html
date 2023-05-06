@@ -294,20 +294,26 @@
                 <p class="popup__instruction">
                   Заполните форму, мы свяжемся с вами в течение суток
                 </p>
-                <div class="order__form">
-                  <input class="input" type="text" placeholder="Имя" />
+                <form class="order__form" autocomplete="on">
                   <input
-                    class="input"
+                    class="input order__input" 
+                    type="text"
+                    name="name"
+                    placeholder="Имя" 
+                  />
+                  <input
+                    class="input order__input"
                     type="email"
                     name="email"
                     placeholder="Электронная почта"
                   />
                   <input
-                    class="input"
+                    class="input order__input"
                     type="tel"
+                    name="tel"
                     placeholder="Номер телефона"
                   />
-                </div>
+                </form>
                 <a href="email:mungaslov.nft@gmail.com" class="send__order"
                   >Отправить</a
                 >

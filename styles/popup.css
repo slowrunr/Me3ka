@@ -8,13 +8,14 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 1000;
   display: flex;
   justify-content: center;
   align-items: center;
   opacity: 0;
   visibility: hidden;
   transition: all 0.4s ease;
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
 .popup_open {
@@ -81,8 +82,7 @@
 @media (max-width: 767px) {
   .popup__content {
     position: relative;
-    width: 361px;
-    height: 611px;
+    width: 95%;
   }
 
   .popup__box {
@@ -112,54 +112,5 @@
   }
 }
 
-/*
-.send-btn{
-    display: flex;
-    width: 100%;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 20px 40px;
-    gap: 10px;
-    background-color: #AD1818;
-    color: white;
-    border-radius: 5px;
-    border-color: #AD1818;
-    cursor: pointer;
-    font-size: 20px;
-    line-height: 27px;
-    letter-spacing: -0.03em;
-    color: #FFFFFF;
-    border: none;
-    font-family: 'Manrope';
-}
-
-.input{
-    display: block;
-    width: 100%;
-    margin-bottom: 80px;
-    padding-bottom: 10px;
-    font-size: 25px;
-    line-height: 34px;
-    border: none;
-    border-bottom: 1px solid #000000;
-    opacity: 0.5;
-}
-
-.input:focus{
-    outline: none;
-}
-
-@media (max-width: 767px) {
-  
-    .input{
-        margin-bottom: 50px;
-        font-size: 18px;
-        line-height: 25px;
-        padding-bottom: 5px;
-    }
-    
-    .popup-container{
-        padding: 10px;
-    }
-}*/
+/*.input:focus{
+    outline: none;*/
