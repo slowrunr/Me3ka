@@ -46,7 +46,7 @@ header {
   background-color: rgba(0, 0, 0, 1);
   display: flex;
   justify-content: end;
-  opacity: 0.9;
+  opacity: 0.7;
   visibility: hidden;
   transition: all 0.3s ease;
 }
@@ -63,6 +63,7 @@ header {
   overflow-y: auto;
   display: flex;
   flex-direction: column;
+  z-index: 102;
   background-color: #fff;
   transition: transform 0.3s linear;
   transform: translateX(100%);
