@@ -70,8 +70,7 @@ header {
   transform: translateX(100%);
 }
 
-.burger_open,
-.burger__content {
+.burger_open .burger__content {
   transform: translateX(0);
 }
 
