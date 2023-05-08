@@ -141,7 +141,7 @@ header {
     right: 0;
     width: 100%;
     height: 2px;
-    background-color: black;
+    background-color: #000000;
   }
 
   .burger-btn::after {
@@ -169,14 +169,20 @@ header {
 @media (max-width: 767px) {
   .burger-btn {
     width: 38px;
+    height: 38px;
   }
 
-  .burger-btn_open {
-    width: 20px;
+  .burger-btn::before,
+  .burger-btn::after {
+    height: 1.5px;
   }
 
   .burger-btn::after {
     top: 5px;
     width: 24px;
+  }
+
+  .burger-btn_open {
+    width: 20px;
   }
 }
