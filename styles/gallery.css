@@ -18,7 +18,7 @@
 .gallery__title {
   font-size: 22px;
   line-height: 30px;
-  color: white;
+  color: #fff;
 }
 
 .gallery__slides {
@@ -86,7 +86,7 @@
 .slide__description {
   font-size: 30px;
   line-height: 41px;
-  color: #ffffff;
+  color: #fff;
 }
 
 @media (max-width: 1199px) {

@@ -2,7 +2,6 @@
 
 .intro h1 {
   margin-bottom: 30px;
-  width: 950px;
   font-size: 60px;
   line-height: 60px;
 }
@@ -11,7 +10,10 @@
   position: relative;
   width: 1150px;
   height: 500px;
-  object-fit: cover;
+  background-image: url(../images/grey-armchair@2x.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   z-index: -1;
 }
 
@@ -22,7 +24,7 @@
   width: 430px;
   font-size: 20px;
   line-height: 27px;
-  color: #ffffff;
+  color: #fff;
 }
 
 @media (max-width: 1199px) {
@@ -33,12 +35,13 @@
 
   .intro__image {
     height: 400px;
-    width: 98%;
+    width: 100%;
+    background-image: url(../images/grey-armchair-tblt.jpg);
   }
 
   .intro p {
     bottom: 30px;
-    width: 430px;
+    height: 81px;
   }
 }
 
@@ -51,7 +54,6 @@
 
 @media (max-width: 767px) {
   .intro h1 {
-    margin-top: 108px;
     margin-bottom: 25px;
     font-size: 30px;
     line-height: 32px;
@@ -63,14 +65,15 @@
   }
 
   .intro__image {
-    position: relative;
     height: 304px;
+    background-image: url(../images/grey-armchair-mbl.jpg);
+    background-position: 50% 50%;
   }
 
   .intro p {
     left: 15px;
     bottom: 15px;
-    width: 90%;
+    max-width: 315px;
     font-size: 16px;
     line-height: 22px;
   }
