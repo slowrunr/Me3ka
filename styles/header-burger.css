@@ -18,7 +18,8 @@ header {
 .logo__link {
   width: 127px;
   height: 21px;
-  object-fit: contain;
+  object-fit: cover;
+  object-position: center;
 }
 
 .nav__links {
@@ -167,6 +168,9 @@ header {
 }
 
 @media (max-width: 767px) {
+  header {
+    padding-top: 31px;
+  }
   .burger-btn {
     width: 38px;
     height: 38px;
@@ -177,8 +181,12 @@ header {
     height: 1.5px;
   }
 
+  .burger-btn::before {
+    top: 6px;
+  }
+
   .burger-btn::after {
-    top: 5px;
+    top: 11px;
     width: 24px;
   }
 
