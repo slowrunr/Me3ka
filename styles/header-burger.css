@@ -177,15 +177,10 @@ header {
 
   .burger-btn::before,
   .burger-btn::after {
-    height: 1.5px;
-  }
-
-  .burger-btn::before {
-    top: 6px;
+    height: 1.7px;
   }
 
   .burger-btn::after {
-    top: 11px;
     width: 24px;
   }
 
