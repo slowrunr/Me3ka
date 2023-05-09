@@ -83,6 +83,7 @@
 @media (max-width: 767px) {
   .popup {
     padding: 0 7px;
+    background-color: rgba(0, 0, 0, 0.2);
   }
 
   .popup__content {
@@ -96,7 +97,7 @@
   }
 
   .popup__instruction {
-    margin-bottom: 70px;
+    margin-bottom: 50px;
     font-size: 14px !important;
     line-height: 19px !important;
   }
