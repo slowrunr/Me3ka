@@ -6,9 +6,9 @@
   background-color: #121212;
 }
 
-.services h2 {
-  padding-left: 2px;
-  color: #ffffff;
+.services h2,
+.services p {
+  color: #fff;
 }
 
 .services__list {
@@ -18,6 +18,7 @@
 }
 
 .service__item {
+  position: relative;
   margin-bottom: 78px;
   width: calc(50% - 5.5px);
 }
@@ -28,26 +29,17 @@
 
 .service__image {
   margin-bottom: 25px;
-  height: 388px;
   width: 100%;
+  object-fit: cover;
 }
 
-/*.service__image:nth-last-child(-n + 2) {
-  margin-bottom: 22px;
-}*/
-
-.service__image_box {
-  position: relative;
-}
-
-.services p {
+.service__desc {
   padding-left: 3px;
-  color: #ffffff;
   font-size: 30px;
   line-height: 41px;
 }
 
-.service__image_box p {
+.service__price {
   position: absolute;
   padding: 0 21px;
   height: 40px;
@@ -97,28 +89,26 @@
 
   .service__image {
     margin-bottom: 11px;
-    height: 315px;
   }
 
   .service__image:nth-last-child(-n + 2) {
     margin-bottom: 13px;
   }
 
-  .services p {
+  .service__desc {
     padding-left: 1px;
-    color: #ffffff;
     font-size: 25px;
     line-height: 34px;
   }
 
-  .service__image_box p {
+  .service__price {
     padding: 0 27px;
     font-size: 20px;
     line-height: 40px;
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 767px) {
   .services {
     padding-top: 80px;
     padding-bottom: 79px;
@@ -129,10 +119,6 @@
     margin-bottom: 20px;
   }
 
-  .services__list {
-    flex-direction: column;
-  }
-
   .service__item,
   .service__item:nth-last-child(-n + 2) {
     margin-bottom: 60px;
@@ -141,17 +127,14 @@
 
   .service__image {
     margin-bottom: 8px;
-    height: 239px;
-    object-fit: cover;
   }
 
-  .services p {
-    color: #ffffff;
+  .service__desc {
     font-size: 18px;
     line-height: 25px;
   }
 
-  .service__image_box p {
+  .service__price {
     padding: 0 25px;
     left: 24px;
     top: 23px;
